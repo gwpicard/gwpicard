@@ -11,7 +11,7 @@ title: gwpicard
 #description: > # this means to ignore newlines until "baseurl:"
 #  Site in progress
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://gwpicard.com" # the base hostname & protocol for your site
 twitter_username: gwpicard
 github_username:  gwpicard
 
