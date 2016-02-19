@@ -21,6 +21,10 @@ body {
   font-feature-settings: "kern" 1;
   font-kerning: normal; }
 
+html, body {
+  margin: 0;
+  height: 100%; }
+
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
@@ -148,10 +152,11 @@ pre {
  * Site header
  */
 .site-header {
-  border-top: 5px solid #424242;
-  border-bottom: 1px solid #e8e8e8;
   min-height: 56px;
-  position: relative; }
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff; }
 
 .site-title {
   font-size: 26px;
@@ -264,7 +269,8 @@ pre {
  * Page content
  */
 .page-content {
-  padding: 30px 0; }
+  padding: 30px 0;
+  margin-top: 56px; }
 
 .page-heading {
   font-size: 20px; }
@@ -274,6 +280,23 @@ pre {
   list-style: none; }
   .post-list > li {
     margin-bottom: 30px; }
+
+.page-content-home {
+  background-image: url("/space.jpg");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden; }
+
+.home {
+  padding-top: 56px; }
+
+#twitter-home {
+  width: 400px;
+  float: right;
+  background-color: rgba(44, 44, 44, 0.6);
+  padding-left: 12px;
+  padding-right: 12px; }
 
 .post-meta {
   font-size: 14px;

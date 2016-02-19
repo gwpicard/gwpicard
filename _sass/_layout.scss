@@ -2,12 +2,14 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
 
     // Positioning context for the mobile navigation icon
-    position: relative;
+    // position: relative;
 }
 
 .site-title {
@@ -169,6 +171,7 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+    margin-top: 56px;
 }
 
 .page-heading {
@@ -182,6 +185,26 @@
     > li {
         margin-bottom: $spacing-unit;
     }
+}
+
+.page-content-home {
+  background-image:url('/space.jpg');
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.home {
+    padding-top: 56px;
+}
+
+#twitter-home{
+    width: 400px;
+    float: right;
+    background-color: rgba(44, 44, 44, 0.6);
+    padding-left: 12px;
+    padding-right: 12px;
 }
 
 .post-meta {

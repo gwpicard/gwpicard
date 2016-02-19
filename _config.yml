@@ -15,5 +15,9 @@ url: "http://gwpicard.com" # the base hostname & protocol for your site
 twitter_username: gwpicard
 github_username:  gwpicard
 
+pages:
+ home: '/index.html'
+ archive: '/archive'
+
 # Build settings
 markdown: kramdown
