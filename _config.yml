@@ -17,6 +17,8 @@ github_username:  gwpicard
 facebook_username: williamsampicard
 linkedin_username: gwpicard
 
+gitrepo_url: "https://github.com/gwpicard/gwpicard"
+
 
 # Build settings
 markdown: kramdown
