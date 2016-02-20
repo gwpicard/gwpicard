@@ -13,7 +13,7 @@ dl, dd, ol, ul, figure {
 body {
   font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #111;
-  background-color: #fdfdfd;
+  background-color: #F8F8F8;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
   -moz-font-feature-settings: "kern" 1;
@@ -142,8 +142,8 @@ pre {
  */
 .icon > svg {
   display: inline-block;
-  width: 16px;
-  height: 16px;
+  width: 24px;
+  height: 24px;
   vertical-align: middle; }
   .icon > svg path {
     fill: #828282; }
@@ -157,6 +157,11 @@ pre {
   top: 0;
   width: 100%;
   background-color: #fff; }
+
+.wrapper a:link,
+.wrapper a:hover,
+.wrapper a:visited {
+  text-decoration: none; }
 
 .site-title {
   font-size: 26px;
@@ -183,7 +188,7 @@ pre {
       position: absolute;
       top: 9px;
       right: 15px;
-      background-color: #fdfdfd;
+      background-color: #F8F8F8;
       border: 1px solid #e8e8e8;
       border-radius: 5px;
       text-align: right; }
@@ -212,6 +217,22 @@ pre {
         margin-left: 20px; }
         .site-nav .page-link:not(:last-child) {
           margin-right: 0; } }
+
+/**
+ * copyright
+ */
+#copyright {
+  position: relative;
+  color: #fff;
+  font-size: 12px;
+  bottom: 20px;
+  left: 6px; }
+
+#copyright a:link,
+#copyright a:hover,
+#copyright a:visited {
+  color: #00B2EE;
+  text-decoration: none; }
 
 /**
  * Site footer
@@ -285,14 +306,18 @@ pre {
   background-image: url("/space.jpg");
   height: 100%;
   background-repeat: no-repeat;
+  background-position: center center;
   background-size: cover;
   overflow: hidden; }
 
 .home {
   padding-top: 56px; }
 
+/**
+ * Twitter feed
+ */
 #twitter-home {
-  width: 400px;
+  width: 350px;
   float: right;
   background-color: rgba(44, 44, 44, 0.6);
   padding-left: 12px;

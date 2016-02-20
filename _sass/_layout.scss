@@ -12,6 +12,12 @@
     // position: relative;
 }
 
+.wrapper a:link,
+.wrapper a:hover,
+.wrapper a:visited, {
+    text-decoration: none;
+}
+
 .site-title {
     font-size: 26px;
     font-weight: 300;
@@ -94,6 +100,23 @@
     }
 }
 
+/**
+ * copyright
+ */
+#copyright{
+    position: relative;
+    color: #fff;
+    font-size: 12px;
+    bottom: 20px;
+    left: 6px;
+ }
+
+#copyright a:link,
+#copyright a:hover,
+#copyright a:visited {
+    color: #00B2EE;
+    text-decoration: none;
+ }
 
 
 /**
@@ -191,6 +214,7 @@
   background-image:url('/space.jpg');
   height: 100%;
   background-repeat: no-repeat;
+  background-position: center center;
   background-size: cover;
   overflow: hidden;
 }
@@ -199,8 +223,12 @@
     padding-top: 56px;
 }
 
+
+/**
+ * Twitter feed
+ */
 #twitter-home{
-    width: 400px;
+    width: 350px;
     float: right;
     background-color: rgba(44, 44, 44, 0.6);
     padding-left: 12px;
