@@ -4,29 +4,98 @@
     <title>gwpicard</title>
     <description>gwpicard website
 </description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 20 Feb 2016 21:22:46 +0000</pubDate>
-    <lastBuildDate>Sat, 20 Feb 2016 21:22:46 +0000</lastBuildDate>
+    <link>http://gwpicard.com/</link>
+    <atom:link href="http://gwpicard.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 05 Apr 2016 17:01:55 +0100</pubDate>
+    <lastBuildDate>Tue, 05 Apr 2016 17:01:55 +0100</lastBuildDate>
     <generator>Jekyll v3.1.1</generator>
+    
+      <item>
+        <title>Introduction</title>
+        <description>&lt;p&gt;&lt;em&gt;The Strange Case of Dr. Jekyll and Mr. Hyde&lt;/em&gt; tells the story of a lawyer investigating the connection of two persons, Dr. Henry Jekyll and Mr. Edward Hyde. Chief among the novel’s supporting cast is a man by the name of Mr. Poole, Dr. Jekyll’s loyal butler.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Poole is the butler for &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;, the static site generator. It’s designed and developed by &lt;a href=&quot;https://twitter.com/mdo&quot;&gt;@mdo&lt;/a&gt; to provide a clear and concise foundational setup for any Jekyll site. It does so by furnishing a full vanilla Jekyll install with example layouts, pages, posts, and styles.&lt;/p&gt;
+
+&lt;p&gt;There are currently three themes built on Poole:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://hyde.getpoole.com&quot;&gt;Hyde&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://lanyon.getpoole.com&quot;&gt;Lanyon&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://enfield.getpoole.com&quot;&gt;Enfield&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Learn more and contribute on &lt;a href=&quot;&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;whats-included&quot;&gt;What’s included&lt;/h3&gt;
+
+&lt;p&gt;Poole is a streamlined Jekyll site designed and built as a foundation for building more meaningful themes. Poole, and every theme built on it like this one, includes the following:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Complete Jekyll setup included (layouts, config, &lt;a href=&quot;/404.html&quot;&gt;404&lt;/a&gt;, &lt;a href=&quot;/atom.xml&quot;&gt;RSS feed&lt;/a&gt;, posts, and &lt;a href=&quot;/about&quot;&gt;example page&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;Mobile friendly design and development&lt;/li&gt;
+  &lt;li&gt;Easily scalable text and component sizing with &lt;code class=&quot;highlighter-rouge&quot;&gt;rem&lt;/code&gt; units in the CSS&lt;/li&gt;
+  &lt;li&gt;Support for a wide gamut of HTML elements&lt;/li&gt;
+  &lt;li&gt;Related posts (time-based, because Jekyll) below each post&lt;/li&gt;
+  &lt;li&gt;Syntax highlighting, courtesy Jekyll’s built-in support for Rouge&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Additional features are available in individual themes.&lt;/p&gt;
+
+&lt;h3 id=&quot;browser-support&quot;&gt;Browser support&lt;/h3&gt;
+
+&lt;p&gt;Poole and its themes are by preference a forward-thinking project. In addition to the latest versions of Chrome, Safari (mobile and desktop), and Firefox, it is only compatible with Internet Explorer 9 and above.&lt;/p&gt;
+
+&lt;h3 id=&quot;download&quot;&gt;Download&lt;/h3&gt;
+
+&lt;p&gt;These themes are developed on and hosted with GitHub. Head to the &lt;a href=&quot;&quot;&gt;GitHub repository&lt;/a&gt; for downloads, bug reports, and features requests.&lt;/p&gt;
+
+&lt;p&gt;Thanks!&lt;/p&gt;
+</description>
+        <pubDate>Sun, 03 Jan 2016 00:00:00 +0000</pubDate>
+        <link>http://gwpicard.com/blog/2016/01/03/introduction.html</link>
+        <guid isPermaLink="true">http://gwpicard.com/blog/2016/01/03/introduction.html</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>What&#39;s Jekyll?</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From &lt;a href=&quot;https://github.com/jekyll/jekyll/blob/master/README.markdown&quot;&gt;the project’s readme&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Jekyll is a simple, blog aware, static site generator. It takes a template directory […] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It’s an immensely useful tool. Find out more by &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;visiting the project on GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+        <link>http://gwpicard.com/blog/2016/01/01/whats-jekyll.html</link>
+        <guid isPermaLink="true">http://gwpicard.com/blog/2016/01/01/whats-jekyll.html</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
     
       <item>
         <title>3D/2D CAD - Travel Adapter</title>
         <description>&lt;p style=&quot;text-align:justify;&quot;&gt;This project was a coursework assignment I had to complete as part of my Aero-Mechanical Engineering curriculum. It is a combination of 2D and 3D CAD images generated using PTC Creo. The drawings were all completed to British Standards&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/projects/assets/screen-shot-2015-02-28-at-11-04-57-e1425150468804.png?w=620&quot; alt=&quot;Screen Shot 2015-02-28 at 11.04.57&quot; width=&quot;620&quot; height=&quot;437&quot; class=&quot;alignnone size-large wp-image-64&quot; /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/gwpicard/gwpicard/gh-pages/assets/screen-shot-2015-02-28-at-11-04-57-e1425150468804.png?w=620&quot; alt=&quot;Screen Shot 2015-02-28 at 11.04.57&quot; width=&quot;620&quot; height=&quot;437&quot; class=&quot;alignnone size-large wp-image-64&quot; /&gt;&lt;br /&gt;
 &amp;nbsp;&lt;br /&gt;
-&lt;img src=&quot;/projects/assets/screen-shot-2015-02-28-at-10-57-46.png?w=620&quot; alt=&quot;Screen Shot 2015-02-28 at 10.57.46&quot; width=&quot;620&quot; height=&quot;315&quot; class=&quot;alignnone size-large wp-image-63&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/gwpicard/gwpicard/gh-pages/assets/screen-shot-2015-02-28-at-10-57-46.png?w=620&quot; alt=&quot;Screen Shot 2015-02-28 at 10.57.46&quot; width=&quot;620&quot; height=&quot;315&quot; class=&quot;alignnone size-large wp-image-63&quot; /&gt;&lt;br /&gt;
 &amp;nbsp;&lt;br /&gt;
-&lt;img src=&quot;/projects/assets/screen-shot-2015-02-28-at-11-05-28-e1425150538539.png?w=620&quot; alt=&quot;Screen Shot 2015-02-28 at 11.05.28&quot; width=&quot;620&quot; height=&quot;437&quot; class=&quot;alignnone size-large wp-image-65&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/gwpicard/gwpicard/gh-pages/assets/screen-shot-2015-02-28-at-11-05-28-e1425150538539.png?w=620&quot; alt=&quot;Screen Shot 2015-02-28 at 11.05.28&quot; width=&quot;620&quot; height=&quot;437&quot; class=&quot;alignnone size-large wp-image-65&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;A full archive of the drawings is available here:&lt;br /&gt;
-&lt;a href=&quot;/projects/assets/creo-report-6.pdf&quot; target=&quot;_blank&quot;&gt;3D/2D CAD - Travel Adapter&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&quot;https://raw.githubusercontent.com/gwpicard/gwpicard/gh-pages/assets/creo-report-6.pdf&quot; target=&quot;_blank&quot;&gt;3D/2D CAD - Travel Adapter&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 01 Oct 2013 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/travel-adapter</link>
-        <guid isPermaLink="true">http://localhost:4000/travel-adapter</guid>
+        <link>http://gwpicard.com/travel-adapter</link>
+        <guid isPermaLink="true">http://gwpicard.com/travel-adapter</guid>
         
-        
-        <category>Projects</category>
         
         <category>project</category>
         
@@ -38,16 +107,16 @@
 &lt;p style=&quot;text-align:justify;&quot;&gt;The goal was to design a portable device with a live-video feed that would allow a junior surgeon/trainee to monitor a surgery from the senior surgeon&#39;s point of view.&lt;/p&gt;
 &lt;p style=&quot;text-align:justify;&quot;&gt;Early versions of the research prototype involved development using a repurposed CMOS camera module, then moving onto a Raspberry Pi/webcam interface, and finally modifying an extreme sports camera circuitboard.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Prototype: V1&lt;/strong&gt;&lt;br /&gt;
-&lt;img src=&quot;/projects/assets/86709bb2-0b86-4fa8-893c-f32cabd1d696-large.png?w=620&quot; alt=&quot;86709bb2-0b86-4fa8-893c-f32cabd1d696-large&quot; width=&quot;620&quot; height=&quot;450&quot; class=&quot;alignnone size-large wp-image-90&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/gwpicard/gwpicard/gh-pages/assets/86709bb2-0b86-4fa8-893c-f32cabd1d696-large.png?w=620&quot; alt=&quot;86709bb2-0b86-4fa8-893c-f32cabd1d696-large&quot; width=&quot;620&quot; height=&quot;450&quot; class=&quot;alignnone size-large wp-image-90&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Prototype: V3&lt;/strong&gt;&lt;br /&gt;
-&lt;img src=&quot;/projects/assets/photo.jpg?w=620&quot; alt=&quot;photo&quot; width=&quot;620&quot; height=&quot;465&quot; class=&quot;alignnone size-large wp-image-88&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/gwpicard/gwpicard/gh-pages/assets/photo.jpg?w=620&quot; alt=&quot;photo&quot; width=&quot;620&quot; height=&quot;465&quot; class=&quot;alignnone size-large wp-image-88&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;I presented the concept at CAOS (Computer Assisted Orthopaedic Surgery) UK in Nov 2013. &lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The full presentation can be accessed below:&lt;/strong&gt;&lt;br /&gt;
-&lt;a href=&quot;/projects/assets/helmet-gwp_20_11_13.pdf&quot; target=&quot;_blank&quot;&gt;CAOS_UK_13_pres&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&quot;https://raw.githubusercontent.com/gwpicard/gwpicard/gh-pages/assets/helmet-gwp_20_11_13.pdf&quot; target=&quot;_blank&quot;&gt;CAOS_UK_13_pres&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 01 Oct 2012 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/medical-google-glass-prototype</link>
-        <guid isPermaLink="true">http://localhost:4000/medical-google-glass-prototype</guid>
+        <link>http://gwpicard.com/medical-google-glass-prototype</link>
+        <guid isPermaLink="true">http://gwpicard.com/medical-google-glass-prototype</guid>
         
         <category>Google glass</category>
         
@@ -58,8 +127,6 @@
         <category>medical</category>
         
         
-        <category>Projects</category>
-        
         <category>project</category>
         
       </item>
@@ -68,16 +135,14 @@
         <title>Project Pico</title>
         <description>&lt;p style=&quot;text-align:justify;&quot;&gt;Project Pico was a student engineering project led by Guillaume Picard and Gautam Rai from the Mahindra United World College of India.  The idea was to build a fully functional go-kart exclusively from repurposed materials, and the kart was completed in its most basic form in May 2012.&lt;/p&gt;
 &lt;p&gt;The project was fully funded by the science department in the college.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://muwcigokartproject.wordpress.com/&quot;&gt;&lt;img src=&quot;/projects/assets/kart.jpg?w=620&quot; alt=&quot;kart&quot; width=&quot;620&quot; height=&quot;336&quot; class=&quot;alignnone size-large wp-image-43&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://muwcigokartproject.wordpress.com/&quot;&gt;&lt;img src=&quot;https://raw.githubusercontent.com/gwpicard/gwpicard/gh-pages/assets/kart.jpg?w=620&quot; alt=&quot;kart&quot; width=&quot;620&quot; height=&quot;336&quot; class=&quot;alignnone size-large wp-image-43&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;A full archive of the project is available here:&lt;br /&gt;
 &lt;a href=&quot;http://muwcigokartproject.wordpress.com/&quot;&gt;http://muwcigokartproject.wordpress.com/&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/project-pico</link>
-        <guid isPermaLink="true">http://localhost:4000/project-pico</guid>
+        <link>http://gwpicard.com/project-pico</link>
+        <guid isPermaLink="true">http://gwpicard.com/project-pico</guid>
         
-        
-        <category>Projects</category>
         
         <category>project</category>
         
@@ -85,19 +150,17 @@
     
       <item>
         <title>Lego SEGWAY</title>
-        <description>&lt;p&gt;&lt;img class=&quot;alignleft size-thumbnail wp-image-226&quot; title=&quot;Lego Segway&quot; src=&quot;/projects/assets/lego-segway.jpg&quot; alt=&quot;&quot; height=&quot;200&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img class=&quot;alignleft size-thumbnail wp-image-226&quot; title=&quot;Lego Segway&quot; src=&quot;https://raw.githubusercontent.com/gwpicard/gwpicard/gh-pages/assets/lego-segway.jpg&quot; alt=&quot;&quot; height=&quot;200&quot; /&gt;&lt;/p&gt;
 &lt;p style=&quot;text-align:justify;&quot;&gt;The Lego SEGWAY project started during an internship at the MINES ParisTech graduate department of &lt;a href=&quot;http://cas.ensmp.fr/&quot;&gt;Control and Automated Systems&lt;/a&gt;. The purpose of the project was to create to a self-balancing robot using Lego Mindstorms NXT 2.0 brick technology.&lt;/p&gt;
 &lt;p&gt;Here is a report of the entire project:&lt;br /&gt;
-&lt;a href=&quot;/projects/assets/lego-mindstorms-segway-project-report2.pdf&quot;&gt;LEGO Mindstorms Segway project Report&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&quot;https://raw.githubusercontent.com/gwpicard/gwpicard/gh-pages/assets/lego-mindstorms-segway-project-report2.pdf&quot;&gt;LEGO Mindstorms Segway project Report&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Here is a Dropbox repository with all the related files which I refer to in the project report:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.dropbox.com/sh/646r2077vqjnxcz/uN2WbRXcyw&quot;&gt;SEGWAY DATABASE&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 01 Aug 2010 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/lego-segway</link>
-        <guid isPermaLink="true">http://localhost:4000/lego-segway</guid>
+        <link>http://gwpicard.com/lego-segway</link>
+        <guid isPermaLink="true">http://gwpicard.com/lego-segway</guid>
         
-        
-        <category>Projects</category>
         
         <category>project</category>
         
@@ -105,21 +168,19 @@
     
       <item>
         <title>Computer Mouse</title>
-        <description>&lt;p style=&quot;text-align:justify;&quot;&gt;This was a project that I had to complete in S5 (2010) for my Higher Graphics &amp;amp; Communication final technical drawing portfolio, as part of the Scottish Curriculum.&lt;/p&gt;
-&lt;p&gt;&lt;a&gt;&lt;img class=&quot;alignleft size-full wp-image-188&quot; title=&quot;Mouse&quot; src=&quot;/projects/assets/mouse_1.jpg&quot; alt=&quot;&quot; width=&quot;500&quot; height=&quot;375&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a&gt;&lt;img class=&quot;alignleft size-full wp-image-193&quot; title=&quot;Mouse&quot; src=&quot;/projects/assets/mouse_2.jpg&quot; alt=&quot;&quot; width=&quot;500&quot; height=&quot;666&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a&gt;&lt;img class=&quot;alignleft size-full wp-image-192&quot; title=&quot;Mouse&quot; src=&quot;/projects/assets/mouse_3.jpg&quot; alt=&quot;&quot; width=&quot;500&quot; height=&quot;538&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a&gt;&lt;img class=&quot;alignleft size-full wp-image-191&quot; title=&quot;Mouse&quot; src=&quot;/projects/assets/mouse_4.jpg&quot; alt=&quot;&quot; width=&quot;500&quot; height=&quot;375&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a&gt;&lt;img class=&quot;alignleft size-full wp-image-190&quot; title=&quot;Mouse&quot; src=&quot;/projects/assets/mouse_5.jpg&quot; alt=&quot;&quot; width=&quot;500&quot; height=&quot;375&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a&gt;&lt;img class=&quot;alignleft size-full wp-image-189&quot; title=&quot;Mouse&quot; src=&quot;/projects/assets/mouse_6.jpg&quot; alt=&quot;&quot; width=&quot;500&quot; height=&quot;375&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a&gt;&lt;img class=&quot;alignleft size-full wp-image-194&quot; title=&quot;Mouse&quot; src=&quot;/projects/assets/mouse_7.jpg&quot; alt=&quot;&quot; width=&quot;500&quot; height=&quot;375&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+        <description>&lt;p style=&quot;text-align:justify;&quot;&gt;This was a project that I completed in 2010 as part of my Scottish Higher Graphics &amp;amp; Communication final technical drawing portfolio.&lt;/p&gt;
+&lt;p&gt;&lt;a&gt;&lt;img class=&quot;alignleft size-full wp-image-188&quot; title=&quot;Mouse&quot; src=&quot;https://raw.githubusercontent.com/gwpicard/gwpicard/gh-pages/assets/mouse_1.jpg&quot; alt=&quot;&quot; width=&quot;500&quot; height=&quot;375&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a&gt;&lt;img class=&quot;alignleft size-full wp-image-193&quot; title=&quot;Mouse&quot; src=&quot;https://raw.githubusercontent.com/gwpicard/gwpicard/gh-pages/assets/mouse_2.jpg&quot; alt=&quot;&quot; width=&quot;500&quot; height=&quot;666&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a&gt;&lt;img class=&quot;alignleft size-full wp-image-192&quot; title=&quot;Mouse&quot; src=&quot;https://raw.githubusercontent.com/gwpicard/gwpicard/gh-pages/assets/mouse_3.jpg&quot; alt=&quot;&quot; width=&quot;500&quot; height=&quot;538&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a&gt;&lt;img class=&quot;alignleft size-full wp-image-191&quot; title=&quot;Mouse&quot; src=&quot;https://raw.githubusercontent.com/gwpicard/gwpicard/gh-pages/assets/mouse_4.jpg&quot; alt=&quot;&quot; width=&quot;500&quot; height=&quot;375&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a&gt;&lt;img class=&quot;alignleft size-full wp-image-190&quot; title=&quot;Mouse&quot; src=&quot;https://raw.githubusercontent.com/gwpicard/gwpicard/gh-pages/assets/mouse_5.jpg&quot; alt=&quot;&quot; width=&quot;500&quot; height=&quot;375&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a&gt;&lt;img class=&quot;alignleft size-full wp-image-189&quot; title=&quot;Mouse&quot; src=&quot;https://raw.githubusercontent.com/gwpicard/gwpicard/gh-pages/assets/mouse_6.jpg&quot; alt=&quot;&quot; width=&quot;500&quot; height=&quot;375&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a&gt;&lt;img class=&quot;alignleft size-full wp-image-194&quot; title=&quot;Mouse&quot; src=&quot;https://raw.githubusercontent.com/gwpicard/gwpicard/gh-pages/assets/mouse_7.jpg&quot; alt=&quot;&quot; width=&quot;500&quot; height=&quot;375&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 01 May 2010 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/computer-mouse-technical-drawings</link>
-        <guid isPermaLink="true">http://localhost:4000/computer-mouse-technical-drawings</guid>
+        <link>http://gwpicard.com/computer-mouse-technical-drawings</link>
+        <guid isPermaLink="true">http://gwpicard.com/computer-mouse-technical-drawings</guid>
         
-        
-        <category>Projects</category>
         
         <category>project</category>
         

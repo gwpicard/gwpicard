@@ -4,16 +4,8 @@ permalink: /about
 title: About
 ---
 
-> gwpicard
+I love [writing](/blog), learning and working on interesting [projects](/projects).
 
-Guillaume (William) Picard
+Currently based in: **Glasgow, UK**
 
-Intern [@TeamKano](http://kano.me){:target="_blank"} &#124; Founding Student [@MinervaSchools](http://minerva.kgi.edu){:target="_blank"}
-
-Currently based in: **London, UK**
-
-* * *
-<br />
-I created this website as a platform for sharing my work, ideas, projects, observations,`lines of code`, and various other experiences of life.
-
-If you have any thoughts or feedback on anything from the site, would be happy to hear them!
+_Last updated April, 2016_
