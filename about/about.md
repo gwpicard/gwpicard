@@ -4,7 +4,7 @@ permalink: /about
 title: About
 ---
 
-I love [writing](/blog), learning and working on interesting [projects](/projects).
+I love writing, learning and working on interesting [projects](/projects).
 
 Currently based in: **Glasgow, UK**
 
