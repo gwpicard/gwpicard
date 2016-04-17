@@ -14,7 +14,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://gwpicard.com" # the base hostname & protocol for your site
 twitter_username: gwpicard
 github_username:  gwpicard
-facebook_username: williamsampicard
+facebook_username: gwpicard
 linkedin_username: gwpicard
 
 git_assets_url: "https://raw.githubusercontent.com/gwpicard/gwpicard/gh-pages/assets"
