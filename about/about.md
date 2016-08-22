@@ -6,6 +6,6 @@ title: About
 
 I love writing, learning and working on interesting [projects](/projects).
 
-Currently based in: **Glasgow, UK**
+Currently based in: **Berlin, Germany**
 
-_Last updated April, 2016_
+_Last updated August, 2016_
