@@ -6,9 +6,9 @@
 </description>
     <link>http://gwpicard.com/</link>
     <atom:link href="http://gwpicard.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 02 May 2016 20:15:31 +0100</pubDate>
-    <lastBuildDate>Mon, 02 May 2016 20:15:31 +0100</lastBuildDate>
-    <generator>Jekyll v3.1.1</generator>
+    <pubDate>Tue, 23 Aug 2016 01:09:19 +0100</pubDate>
+    <lastBuildDate>Tue, 23 Aug 2016 01:09:19 +0100</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
     
       <item>
         <title>What I Learned from Working in Customer Service</title>
@@ -82,7 +82,7 @@
       <item>
         <title>Medical &quot;Google Glass&quot; prototype</title>
         <description>&lt;p style=&quot;text-align:justify;&quot;&gt;This is a research project I worked on while working at the Golden Jubilee National Hospital in Scotland, UK in 2012.&lt;/p&gt;
-&lt;p style=&quot;text-align:justify;&quot;&gt;The goal was to design a portable device with a live-video feed that would allow a junior surgeon/trainee to monitor a surgery from the senior surgeon&#39;s point of view.&lt;/p&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;The goal was to design a portable device with a live-video feed that would allow a junior surgeon/trainee to monitor a surgery from the senior surgeon's point of view.&lt;/p&gt;
 &lt;p style=&quot;text-align:justify;&quot;&gt;Early versions of the research prototype involved development using a repurposed CMOS camera module, then moving onto a Raspberry Pi/webcam interface, and finally modifying an extreme sports camera circuitboard.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Prototype: V1&lt;/strong&gt;&lt;br /&gt;
 &lt;img src=&quot;https://raw.githubusercontent.com/gwpicard/gwpicard/gh-pages/assets/86709bb2-0b86-4fa8-893c-f32cabd1d696-large.png?w=620&quot; alt=&quot;86709bb2-0b86-4fa8-893c-f32cabd1d696-large&quot; width=&quot;620&quot; height=&quot;450&quot; class=&quot;alignnone size-large wp-image-90&quot; /&gt;&lt;/p&gt;

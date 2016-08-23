@@ -12,7 +12,6 @@ description: > # this means to ignore newlines until "baseurl:"
  gwpicard website
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://gwpicard.com" # the base hostname & protocol for your site
-twitter_username: gwpicard
 github_username:  gwpicard
 facebook_username: gwpicard
 linkedin_username: gwpicard
