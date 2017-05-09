@@ -6,6 +6,6 @@ title: About
 
 I love writing, learning and working on interesting [projects](/projects).
 
-Currently based in: **Buenos Aires, Argentina**
+Currently based in: **Glasgow, UK**
 
-_Last updated January, 2017_
+_Last updated May, 2017_
