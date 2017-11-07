@@ -19,7 +19,7 @@ title: Projects
     </div>
     <div class="col-sm-4 fadeover" style="">
       <a href="{{ site.baseurl }}/project-pico">
-      	<img class="" src="/assets/pico_header.png">
+      	<img class="" src="{{ site.git_assets_url }}/pico_header.png">
       </a>
     </div>
   </div>
