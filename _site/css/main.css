@@ -156,7 +156,8 @@ pre {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #fff; }
+  #background-color: #fff;
+  z-index: 1000; }
 
 .wrapper a:link,
 .wrapper a:hover,
@@ -189,7 +190,6 @@ pre {
       top: 9px;
       right: 15px;
       background-color: #F8F8F8;
-      border: 1px solid #e8e8e8;
       border-radius: 5px;
       text-align: right; }
       .site-nav .menu-icon {
@@ -212,7 +212,6 @@ pre {
         display: block;
         padding-bottom: 5px; }
       .site-nav .page-link {
-        display: block;
         padding: 5px 10px;
         margin-left: 20px; }
         .site-nav .page-link:not(:last-child) {

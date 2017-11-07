@@ -21,3 +21,6 @@ git_assets_url: "https://raw.githubusercontent.com/gwpicard/gwpicard/gh-pages/as
 
 # Build settings
 markdown: kramdown
+
+sass:
+  sass_dir: _sass
