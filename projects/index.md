@@ -6,20 +6,22 @@ title: Projects
 
 <div class="container">
   <div class="row">
-    <div class="col-sm-4 fadeover" style="">
-      <a href="{{ site.baseurl }}/computer-mouse-technical-drawings">
-      	<img class="" src="{{ site.git_assets_url }}/mouse_header.png">
-      </a>
-      <!--<h3>hi</h3>-->
-    </div>
-    <div class="col-sm-4 fadeover" style="margin-top:80px">
+    <div class="col-sm-4 fadeover" style="margin-top:60px">
       <a href="{{ site.baseurl }}/lego-segway">
-      	<img class="" src="{{ site.git_assets_url }}/lego_header.png">
+      	<img src="{{ site.git_assets_url }}/lego_header.png">
+      	<h3 class="nohover">Lego Segway</h3>
       </a>
     </div>
-    <div class="col-sm-4 fadeover" style="">
+    <div class="col-sm-4 fadeover" style="margin-top: 30px;">
+      <a href="{{ site.baseurl }}/computer-mouse-technical-drawings">
+      	<img src="{{ site.git_assets_url }}/mouse_header.png">
+      	<h3>Technical Drawing</h3>
+      </a>
+    </div>
+    <div class="col-sm-4 fadeover" style="margin-top: 60px;">
       <a href="{{ site.baseurl }}/project-pico">
-      	<img class="" src="{{ site.git_assets_url }}/pico_header.png">
+      	<img src="{{ site.git_assets_url }}/pico_header.png">
+      	<h3>Pico</h3>
       </a>
     </div>
   </div>

@@ -362,6 +362,18 @@ pre {
       .post-content h4 {
         font-size: 18px; } }
 
+.fadeover a > h3 {
+  text-decoration: none;
+  pointer-events: none;
+  display: inline-block;
+  color: #615f5f;
+  margin-top: 0px; }
+
+.fadeover a > h3:hover {
+  text-decoration: none;
+  pointer-events: none;
+  color: #615f5f; }
+
 /**
  * Syntax highlighting styles
  */
