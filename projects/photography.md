@@ -18,6 +18,9 @@ title: Projects
       align-items: center;">
 	<div class="swiper-container-inner">
 		<div class="swiper-wrapper">
+			<div class="swiper-slide post-content" style="width: 35%; text-align: center;">
+				<p>/ Photography</p>
+		  	</div>
 			<div class="swiper-slide" style="background-image:url('/chicago-in-clouds.jpg'); background-size: cover; background-repeat: no-repeat; background-position: 40% 40%; width: 100%;">
 		  	</div>
 			<div class="swiper-slide" style="background-image:url('/assets/photo_1.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; width: 100%;">
@@ -29,9 +32,6 @@ title: Projects
 		  	<div class="swiper-slide" style="background-image:url('/assets/photo_3.jpg'); background-size: auto 100%; background-repeat: no-repeat; background-position: center; width: 100%;">
 		  	</div>
 		  	<div class="swiper-slide" style="background-image:url('/assets/photo_4.jpg'); background-size: cover; background-repeat: no-repeat; background-position: 75%; width: 100%;">
-		  	</div>
-		  	<div class="swiper-slide post-content" style="width: 35%; text-align: center;">
-				<p>/ Photography</p>
 		  	</div>
 		</div>
 	</div>
