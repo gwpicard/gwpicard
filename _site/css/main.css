@@ -28,6 +28,9 @@ html, body {
   min-height: 520px;
   overflow-x: hidden; }
 
+html {
+  overflow-y: scroll; }
+
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
@@ -150,6 +153,12 @@ pre {
   vertical-align: middle; }
   .icon > svg path {
     fill: #828282; }
+
+::-webkit-scrollbar {
+  width: 0px;
+  /* remove scrollbar space */
+  background: transparent;
+  /* optional: just make scrollbar invisible */ }
 
 /**
  * Site header
