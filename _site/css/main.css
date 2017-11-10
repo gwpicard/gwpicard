@@ -239,11 +239,6 @@ pre {
   bottom: 20px;
   left: 6px; }
 
-#copyright a:link,
-#copyright a:hover,
-#copyright a:visited {
-  text-decoration: none; }
-
 /**
  * Site footer
  */
@@ -263,7 +258,9 @@ pre {
 .contact-list,
 .social-media-list {
   list-style: none;
-  margin-left: 0; }
+  margin-left: 0;
+  position: absolute;
+  bottom: 80px; }
 
 .footer-col-wrapper {
   font-size: 15px;
@@ -389,6 +386,28 @@ pre {
   text-decoration: none;
   pointer-events: none;
   color: #615f5f; }
+
+/*Swiper*/
+.swiper-container {
+  width: 100%;
+  height: 100%; }
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center; }
 
 /**
  * Syntax highlighting styles
