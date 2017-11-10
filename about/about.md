@@ -30,4 +30,5 @@ title: About
 	        </div>
 	  	</div>
 	</div>
+	<div class="swiper-button-next swiper-button-black" style="right: 50%; top: 92%;   transform: rotate(90deg) translateX(-50%);"></div>
 </div>

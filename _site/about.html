@@ -199,6 +199,7 @@
 	        </div>
 	  	</div>
 	</div>
+	<div class="swiper-button-next swiper-button-black" style="right: 50%; top: 92%;   transform: rotate(90deg) translateX(-50%);"></div>
 </div>
 
 
@@ -213,8 +214,24 @@
 	  keyboard: {
         enabled: true,
       },
+      navigation: {
+        nextEl: '.swiper-button-next',
+      },
+      //scrollbar: {
+      //  el: '.swiper-scrollbar',
+      //},
       freeMode: true
-	})
+	});
+
+	mySwiper.on('progress', function (e) {	  
+	  if(parseFloat(e) < 0.7){
+	  	$('.swiper-button-next').show();
+	  }
+	  else{
+	  	$('.swiper-button-next').hide();
+	  }
+	});
+
 	});
 	</script>
   </body>

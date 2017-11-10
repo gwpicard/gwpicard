@@ -20,8 +20,24 @@
 	  keyboard: {
         enabled: true,
       },
+      navigation: {
+        nextEl: '.swiper-button-next',
+      },
+      //scrollbar: {
+      //  el: '.swiper-scrollbar',
+      //},
       freeMode: true
-	})
+	});
+
+	mySwiper.on('progress', function (e) {	  
+	  if(parseFloat(e) < 0.7){
+	  	$('.swiper-button-next').show();
+	  }
+	  else{
+	  	$('.swiper-button-next').hide();
+	  }
+	});
+
 	});
 	</script>
   </body>
