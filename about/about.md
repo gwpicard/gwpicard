@@ -4,7 +4,7 @@ permalink: /about
 title: About
 ---
 
-I love writing, learning and working on interesting [projects](/projects).
+I love writing, learning and working on interesting projects.
 
 Currently based in: **Seoul, South Korea**
 

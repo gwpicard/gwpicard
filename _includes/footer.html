@@ -1,18 +1,11 @@
 <footer class="site-footer">
 
   <div class="wrapper">
-
-    <h2>Contact links</h2>
-
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li><a href="mailto:{{ site.email }}"><span class="icon icon--mail">{% include icon-mail.svg %}</span> Send me an email</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
         <div class="social-media-list">
+          <a href="mailto:{{ site.email }}"><span class="icon icon--mail">{% include icon-mail.svg %}</span></a>
+
           {% if site.github_username %}
             {% include icon-github.html username=site.github_username %}
           {% endif %}
@@ -26,10 +19,6 @@
           {% endif %}
 
         </div>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>Handcrafted with love using <a href="https://jekyllrb.com/">Jekyll</a></p>
       </div>
     </div>
 
