@@ -6,8 +6,8 @@
 </description>
     <link>http://gwpicard.com/</link>
     <atom:link href="http://gwpicard.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 10 Nov 2017 18:05:28 +0900</pubDate>
-    <lastBuildDate>Fri, 10 Nov 2017 18:05:28 +0900</lastBuildDate>
+    <pubDate>Sat, 11 Nov 2017 03:03:46 +0900</pubDate>
+    <lastBuildDate>Sat, 11 Nov 2017 03:03:46 +0900</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -111,11 +111,34 @@
     
       <item>
         <title>Project Pico</title>
-        <description>&lt;p style=&quot;text-align:justify;&quot;&gt;Project Pico was a student engineering project led by Guillaume Picard and Gautam Rai from the Mahindra United World College of India.  The idea was to build a fully functional go-kart exclusively from repurposed materials, and the kart was completed in its most basic form in May 2012.&lt;/p&gt;
-&lt;p&gt;The project was fully funded by the science department in the college.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://muwcigokartproject.wordpress.com/&quot;&gt;&lt;img src=&quot;https://raw.githubusercontent.com/gwpicard/gwpicard/gh-pages/assets/kart.jpg?w=620&quot; alt=&quot;kart&quot; width=&quot;620&quot; height=&quot;336&quot; class=&quot;alignnone size-large wp-image-43&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;A full archive of the project is available here:&lt;br /&gt;
-&lt;a href=&quot;http://muwcigokartproject.wordpress.com/&quot;&gt;http://muwcigokartproject.wordpress.com/&lt;/a&gt;&lt;/p&gt;
+        <description>&lt;script&gt;document.body.className += ' fade-out';&lt;/script&gt;
+
+&lt;div class=&quot;swiper-container&quot;&gt;
+	&lt;div class=&quot;swiper-wrapper&quot;&gt;
+		&lt;div class=&quot;swiper-slide&quot;&gt;
+	      	&lt;div class=&quot;post-content&quot; style=&quot;text-align: justify; width: 55%;&quot;&gt;
+	      	&lt;p&gt;&lt;strong&gt;/ Project Pico&lt;/strong&gt; was an engineering project led by Guillaume Picard and Gautam Rai from the Mahindra United World College of India.&lt;/p&gt;
+	      	&lt;p&gt;The goal: build a fully functional go-kart exclusively from repurposed materials. The kart was completed in its most basic form in May 2012.&lt;/p&gt;
+	      	&lt;p&gt;The project was fully funded by the science department in the college.&lt;/p&gt;
+	      	&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;swiper-slide&quot;&gt;
+			&lt;div class=&quot;post-content&quot;&gt;
+				&lt;a href=&quot;http://muwcigokartproject.wordpress.com/&quot;&gt;&lt;img src=&quot;https://raw.githubusercontent.com/gwpicard/gwpicard/gh-pages/assets/kart.jpg?w=620&quot; style=&quot;min-width: 620px;&quot;/&gt;&lt;/a&gt;
+				&lt;p style=&quot;margin-top: 20px;&quot;&gt;A full archive of the project is available here:&lt;br /&gt;
+				&lt;a href=&quot;http://muwcigokartproject.wordpress.com/&quot;&gt;http://muwcigokartproject.wordpress.com/&lt;/a&gt;&lt;/p&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;script&gt;
+	$(document).ready(function(){
+	    $('body').removeClass('fade-out');
+	});
+
+&lt;/script&gt;
 </description>
         <pubDate>Sun, 01 Jan 2012 00:00:00 +0900</pubDate>
         <link>http://gwpicard.com/project-pico</link>

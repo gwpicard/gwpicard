@@ -7,14 +7,15 @@ title: About
 <div class="swiper-container">
 	<div class="swiper-wrapper">
 		<div class="swiper-slide">
-	      	<div><h1>I love to write, learn and <br />
-			work on interesting projects.</h1>
+	      	<div class="post-content" style="width: 90%;">
+	      		<h1>I love to write, learn and <br />
+				work on interesting <a style="color: black; text-decoration: underline;" href="/portfolio">projects</a>.</h1>
 			</div>
 	  	</div>
 		<div class="swiper-slide" style="background-image:url('/about.jpg'); height: 100%; background-repeat: no-repeat; background-position: center center; background-size: cover; overflow: hidden;">
 		</div>
 		<div class="swiper-slide">
-	      	<div style="position: absolute;"><h1>Currently based in:<br />
+	      	<div class="post-content" style="position: absolute;"><h1>Currently based in:<br />
 			<strong>Seoul, South Korea</strong></h1>
 			<p style="font-size:12px;">last updated: Nov, 2017</p>
 			</div>

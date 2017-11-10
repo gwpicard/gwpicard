@@ -1,20 +1,20 @@
 ---
 layout: full-screen-scroll
-permalink: /projects
+permalink: /portfolio
 title: Projects
 ---
 
 <div class="swiper-container">
-<div class="swiper-wrapper">
-	<div class="swiper-slide" style="background-image:url('/chicago-in-clouds.jpg'); height: 100%; background-repeat: no-repeat; background-position: center center; background-size: cover; overflow: hidden;">
-	</div>
-	<div class="swiper-slide">
-      	<div><h1>Goodness, bigness, kindness<br />
-		forgiveness, emotional bravery.<br />
-		Be a warrior for love.</h1>
+	<div class="swiper-wrapper">
+		<div class="swiper-slide">
+	      	<div class="post-content" style="margin: auto; position: absolute; width: 80%; text-align: left;">
+	      	<ul style="list-style: none; line-height: 2;">
+	      		<li><h2 class="portfolio-link"><a href="/project-pico">/ Project Pico</a></h2></li>
+	      		<li><h2 class="portfolio-link"><a href="/photography">/ Photography</a></h2></li>
+	      	</ul>
+			</div>
 		</div>
-  	</div>
-</div>
+	</div>
 </div>
 
  

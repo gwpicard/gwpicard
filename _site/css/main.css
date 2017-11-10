@@ -31,6 +31,14 @@ html, body {
 html {
   overflow-y: scroll; }
 
+body {
+  opacity: 1;
+  transition: 1.5s opacity; }
+
+body.fade-out {
+  opacity: 0;
+  transition: none; }
+
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
@@ -148,9 +156,10 @@ pre {
  */
 .icon > svg {
   display: inline-block;
-  width: 24px;
-  height: 24px;
-  vertical-align: middle; }
+  width: 60px;
+  height: 60px;
+  vertical-align: middle;
+  margin: auto 3px; }
   .icon > svg path {
     fill: #828282; }
 
@@ -326,11 +335,22 @@ pre {
 
 .post-content {
   margin-bottom: 30px; }
+  .post-content h1 {
+    font-size: 55px; }
+    @media screen and (max-width: 800px) {
+      .post-content h1 {
+        font-size: 45px; } }
+    @media screen and (max-width: 600px) {
+      .post-content h1 {
+        font-size: 25px; } }
   .post-content h2 {
-    font-size: 32px; }
+    font-size: 40px; }
     @media screen and (max-width: 800px) {
       .post-content h2 {
-        font-size: 28px; } }
+        font-size: 35px; } }
+    @media screen and (max-width: 600px) {
+      .post-content h2 {
+        font-size: 30px; } }
   .post-content h3 {
     font-size: 26px; }
     @media screen and (max-width: 800px) {
@@ -341,23 +361,41 @@ pre {
     @media screen and (max-width: 800px) {
       .post-content h4 {
         font-size: 18px; } }
+  .post-content p {
+    font-size: 24px; }
+    @media screen and (max-width: 800px) {
+      .post-content p {
+        font-size: 16px; } }
+    @media screen and (max-width: 600px) {
+      .post-content p {
+        font-size: 14px; } }
 
 .fadeover a > h3 {
   text-decoration: none;
-  pointer-events: none;
   display: inline-block;
   color: #615f5f;
   margin-top: 0px; }
 
 .fadeover a > h3:hover {
   text-decoration: none;
-  pointer-events: none;
+  color: #615f5f; }
+
+.portfolio-link > a {
+  text-decoration: none;
+  color: black; }
+
+.portfolio-link > a:hover {
+  text-decoration: none;
   color: #615f5f; }
 
 /*Swiper*/
 .swiper-container {
   width: 100%;
   height: 100%; }
+
+.swiper-container-inner {
+  height: 70%;
+  width: 85%; }
 
 .swiper-slide {
   text-align: center;
