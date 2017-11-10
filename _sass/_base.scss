@@ -23,13 +23,14 @@ body {
     -o-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
+    position: relative;
 }
 
 html, body {
     margin: 0;
     height: 100%;
     min-height: 520px;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 

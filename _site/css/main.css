@@ -19,13 +19,14 @@ body {
   -moz-font-feature-settings: "kern" 1;
   -o-font-feature-settings: "kern" 1;
   font-feature-settings: "kern" 1;
-  font-kerning: normal; }
+  font-kerning: normal;
+  position: relative; }
 
 html, body {
   margin: 0;
   height: 100%;
   min-height: 520px;
-  overflow: hidden; }
+  overflow-x: hidden; }
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -240,7 +241,7 @@ pre {
 .site-footer {
   border-top: 1px solid #e8e8e8;
   padding: 30px 0;
-  position: fixed;
+  position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
