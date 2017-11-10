@@ -28,5 +28,5 @@ title: Projects
 		accordion: true,
 	});
 
-	$('#collapse').css({ opacity: 1});
+	$('#collapse').fadeTo(800, 1);
 </script>
