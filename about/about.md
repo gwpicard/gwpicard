@@ -19,20 +19,13 @@ title: About
 			<p style="font-size:12px;">last updated: Nov, 2017</p>
 			</div>
 			<div class="social-media-list">
-	          <a href="mailto:{{ site.email }}"><span class="icon icon--mail">{% include icon-mail.svg %}</span></a>
+	          <a href="mailto:{{ site.email }}" target="_blank"><span class="icon icon--mail">{% include icon-mail.svg %}</span></a>
 
-	          {% if site.github_username %}
-	            {% include icon-github.html username=site.github_username %}
-	          {% endif %}
+	          <a href="https://github.com/{{ site.github_username }}" target="_blank"><span class="icon icon--mail">{% include icon-github.svg %}</span></a>
 
-	          {% if site.facebook_username %}
-	            {% include icon-facebook.html username=site.facebook_username %}
-	          {% endif %}
+	          <a href="https://facebook.com/{{ site.facebook_username }}" target="_blank"><span class="icon icon--mail">{% include icon-facebook.svg %}</span></a>
 
-	          {% if site.linkedin_username %}
-	            {% include icon-linkedin.html username=site.linkedin_username %}
-	          {% endif %}
-
+	          <a href="https://linkedin.com/in/{{ site.linkedin_username }}" target="_blank"><span class="icon icon--mail">{% include icon-linkedin.svg %}</span></a>
 	        </div>
 	  	</div>
 	</div>

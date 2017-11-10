@@ -262,6 +262,9 @@ pre {
   position: absolute;
   bottom: 80px; }
 
+.social-media-list > a:hover {
+  text-decoration: none; }
+
 .footer-col-wrapper {
   font-size: 15px;
   color: #828282;
