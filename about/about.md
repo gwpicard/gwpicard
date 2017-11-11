@@ -9,8 +9,8 @@ title: About
 	<div class="swiper-wrapper">
 		<div class="swiper-slide">
 	      	<div class="post-content" style="width: 90%;">
-	      		<h1>Highly analytical <i style="font-size: 0.7em" class="em em-computer"></i>, <nobr>infinitely curious <i style="font-size: 0.7em" class="em em-curly_loop"></i></nobr> <br />
-				I love to create things, and solve <a style="color: black; text-decoration: underline;" href="/portfolio">problems</a>.</h1>
+	      		<h1 class="portfolio-link">Highly analytical <i style="font-size: 0.7em" class="em em-computer"></i>, <nobr>infinitely curious <i style="font-size: 0.7em" class="em em-curly_loop"></i></nobr> <br />
+				I love to create things, and solve <a style="text-decoration: underline;" href="/portfolio">problems</a>.</h1>
 			</div>
 	  	</div>
 		<div class="swiper-slide" style="background-image:url('/about.jpg'); height: 100%; background-repeat: no-repeat; background-position: center center; background-size: cover; overflow: hidden;">
