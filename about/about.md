@@ -3,19 +3,20 @@ layout: full-screen-scroll
 permalink: /about
 title: About
 ---
+<script>document.body.className += ' fade-out';</script>
 
 <div class="swiper-container">
 	<div class="swiper-wrapper">
 		<div class="swiper-slide">
 	      	<div class="post-content" style="width: 90%;">
-	      		<h1>Data Scientist at work. Poet at heart. <br />
+	      		<h1>Highly analytical <i style="font-size: 0.7em" class="em em-computer"></i>, <nobr>infinitely curious <i style="font-size: 0.7em" class="em em-curly_loop"></i></nobr> <br />
 				I love to create things, and solve <a style="color: black; text-decoration: underline;" href="/portfolio">problems</a>.</h1>
 			</div>
 	  	</div>
 		<div class="swiper-slide" style="background-image:url('/about.jpg'); height: 100%; background-repeat: no-repeat; background-position: center center; background-size: cover; overflow: hidden;">
 		</div>
 		<div class="swiper-slide">
-	      	<div class="post-content" style="position: absolute;"><h1>Currently based in:<br />
+	      	<div class="post-content" style="position: absolute;"><h1>Currently in:<br />
 			<strong>Seoul, South Korea</strong></h1>
 			<p style="font-size:12px;">last updated: Nov, 2017</p>
 			</div>
@@ -32,3 +33,10 @@ title: About
 	</div>
 	<div class="swiper-button-next swiper-button-black" style="right: 50%; top: 92%;   transform: rotate(90deg) translateX(-50%);"></div>
 </div>
+
+<script>
+	$(document).ready(function(){
+	    $('body').removeClass('fade-out');
+	});
+
+</script>
