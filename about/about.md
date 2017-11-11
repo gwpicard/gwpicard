@@ -9,7 +9,7 @@ title: About
 		<div class="swiper-slide">
 	      	<div class="post-content" style="width: 90%;">
 	      		<h1>Data Scientist at work. Poet at heart. <br />
-				I love to create and solve <a style="color: black; text-decoration: underline;" href="/portfolio">problems</a>.</h1>
+				I love to create things, and solve <a style="color: black; text-decoration: underline;" href="/portfolio">problems</a>.</h1>
 			</div>
 	  	</div>
 		<div class="swiper-slide" style="background-image:url('/about.jpg'); height: 100%; background-repeat: no-repeat; background-position: center center; background-size: cover; overflow: hidden;">
