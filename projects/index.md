@@ -17,8 +17,8 @@ title: Projects
 		  </div>
 		  <h2>/ Creative</h2>
 		  <div style="margin-left: 30px;">
-		    <h3 class="portfolio-link"><a href="/photography">/ Photography <i class="em em-camera"></i></a></h3>
-		    <h3 class="portfolio-link"><a href="http://samywilko.com" target="_blank">/ Writing <i class="em em-notebook_with_decorative_cover"></i></a></h3>
+		    <h3 class="portfolio-link"><a href="/photography">/ Photography <img src="/assets/photography.png" width="28em;"></a></h3>
+		    <h3 class="portfolio-link"><a href="http://samywilko.com" target="_blank">/ Writing <img src="/assets/writing.png" width="28em;"></a></h3>
 		  </div>
 		</div>
 	</div>
