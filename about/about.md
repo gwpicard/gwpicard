@@ -17,8 +17,8 @@ title: About
 		</div>
 		<div class="swiper-slide">
 	      	<div class="post-content" style="position: absolute;"><h1>Currently in:<br />
-			<strong>Glasgow, Scotland</strong></h1>
-			<p style="font-size:12px;">last updated: Dec, 2017</p>
+			<strong>Hyderabad, India</strong></h1>
+			<p style="font-size:12px;">last updated: Jan, 2018</p>
 			</div>
 			<div class="social-media-list">
 	          <a href="mailto:{{ site.email }}" target="_blank"><span class="icon icon--mail">{% include icon-mail.svg %}</span></a>
