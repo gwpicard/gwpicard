@@ -1,5 +1,5 @@
 ---
-layout: post_with_footer
+layout: post
 category: blog
 title: What I Learned from Working in Customer Service  
 tags : [what I learned, customer service, customer, service]

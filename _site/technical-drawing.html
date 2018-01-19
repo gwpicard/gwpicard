@@ -6,13 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Projects</title>
+  <title>Technical Drawing</title>
   <meta name="description" content="gwpicard website
 ">
 
   <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://gwpicard.com/portfolio">
+  <link rel="canonical" href="http://gwpicard.com/technical-drawing">
   <link rel="alternate" type="application/rss+xml" title="gwpicard" href="http://gwpicard.com/feed.xml">
   <link rel="shortcut icon" href="myicon.ico" type="image/x-icon" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.5/css/swiper.css">
@@ -67,38 +67,66 @@
 </header>
 
 
-    <script type="text/javascript" src="/css/jquery.collapsible.min.js"></script>
+   	<script>document.body.className += ' fade-out';</script>
 
-<div style="height: 100%; position: relative;">
-  	<div class="post-content" style="width: 75%; top: 50%; transform: translateY(-50%); position: relative; margin: auto; text-align: left;">
-	  	<div id="collapse" style="opacity: 0;">
-		  <!--<h2>/ Skills</h2>
-		  <div style="margin-left: 30px;">
-		    <h3 class="portfolio-link"><a href="/technical-drawing">/ Technical Drawing</a></h3>
-		  </div>-->
-		  <h2>/ Projects</h2>
-		  <div style="margin-left: 30px;">
-		    <h3 class="portfolio-link"><a href="/project-pico">/ Project Pico _2012</a></h3>
-		  </div>
-		  <h2>/ Creative</h2>
-		  <div style="margin-left: 30px;">
-		    <h3 class="portfolio-link"><a href="/photography">/ Photography <img src="/assets/photography.png" width="28em;" /></a></h3>
-		    <h3 class="portfolio-link"><a href="http://samywilko.com" target="_blank">/ Writing <img src="/assets/writing.png" width="28em;" /></a></h3>
-		  </div>
+<div class="swiper-container">
+	<div class="swiper-wrapper">
+		<div class="swiper-slide">
+	      	<div class="post-content" style="text-align: justify; width: 55%;">
+	      	<p>I learned <strong>technical drawing</strong> and <strong>computer-aided design</strong> (CAD) all throughout high school, and during my first year of university for aeromechanical engineering.</p>
+	      	<p>Below are various samples of my work in this area.</p>
+	      	</div>
+		</div>
+		<div class="swiper-slide">
+			<div class="post-content">
+				<a href="http://muwcigokartproject.wordpress.com/"><img src="https://raw.githubusercontent.com/gwpicard/gwpicard/gh-pages/assets/cross_section_0.jpg" style="min-width: 620px;" /></a>
+				<p style="margin-top: 20px;">A full archive of the project is available here:</p>
+			</div>
 		</div>
 	</div>
+	<div class="swiper-button-next swiper-button-black" style="right: 50%; top: 92%;   transform: rotate(90deg) translateX(-50%);"></div>
 </div>
 
-<script type="text/javascript">
-	$('#collapse').collapsible({
-		accordion: true,
+<script>
+	$(document).ready(function(){
+	    $('body').removeClass('fade-out');
 	});
 
-	$('#collapse').fadeTo(800, 1);
 </script>
 
 
 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.5/js/swiper.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function () {
+	//initialize swiper when document ready
+	var mySwiper = new Swiper ('.swiper-container', {
+	  // Optional parameters
+	  direction: 'vertical',
+	  mousewheel: true,
+	  keyboard: {
+        enabled: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+      },
+      //scrollbar: {
+      //  el: '.swiper-scrollbar',
+      //},
+      freeMode: true
+	});
+
+	mySwiper.on('progress', function (e) {	  
+	  if(parseFloat(e) < 0.7){
+	  	$('.swiper-button-next').show();
+	  }
+	  else{
+	  	$('.swiper-button-next').hide();
+	  }
+	});
+
+	});
+	</script>
   </body>
 
 </html>
