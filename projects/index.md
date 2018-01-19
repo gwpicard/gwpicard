@@ -11,10 +11,10 @@ title: Projects
 <div style="height: 100%; position: relative;">
   	<div class="post-content" style="width: 75%; top: 50%; transform: translateY(-50%); position: relative; margin: auto; text-align: left;">
 	  	<div id="collapse" style="opacity: 0;">
-		  <!--<h2>/ Skills</h2>
+		  <h2>/ Skills</h2>
 		  <div style="margin-left: 30px;">
 		    <h3 class="portfolio-link"><a href="/technical-drawing">/ Technical Drawing</a></h3>
-		  </div>-->
+		  </div>
 		  <h2>/ Projects</h2>
 		  <div style="margin-left: 30px;">
 		    <h3 class="portfolio-link"><a href="/project-pico">/ Project Pico _2012</a></h3>

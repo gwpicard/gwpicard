@@ -15,8 +15,32 @@ permalink: '/technical-drawing'
 		</div>
 		<div class="swiper-slide">
 			<div class="post-content">
-				<a href="http://muwcigokartproject.wordpress.com/"><img src="{{ site.git_assets_url }}/cross_section_0.jpg" style="min-width: 620px;"/></a>
-				<p style="margin-top: 20px;">A full archive of the project is available here:</p>
+				<img src="{{ site.git_assets_url }}/cross_section_0.jpg" style="min-width: 600px; width: 60%;"/>
+				<p style="margin-top: 20px;">Computer mouse orthographic cross-section drawing</p>
+			</div>
+		</div>
+		<div class="swiper-slide">
+			<div class="post-content">
+				<img src="{{ site.git_assets_url }}/cross_section.jpg" style="min-width: 600px; width: 60%;"/>
+				<p style="margin-top: 20px;">Computer mouse isometric cross-section drawing</p>
+			</div>
+		</div>
+		<div class="swiper-slide">
+			<div class="post-content">
+				<img src="{{ site.git_assets_url }}/exploded_view.png" style="min-width: 600px;"/>
+				<p style="margin-top: 20px;">Travel adapter exploded CAD</p>
+			</div>
+		</div>
+		<div class="swiper-slide">
+			<div class="post-content">
+				<img src="{{ site.git_assets_url }}/iso_2.png" style="min-width: 600px;"/>
+				<p style="margin-top: 20px;">Travel adapter orthographic CAD</p>
+			</div>
+		</div>
+		<div class="swiper-slide">
+			<div class="post-content">
+				<img src="{{ site.git_assets_url }}/rendered.png" style="min-width: 600px;"/>
+				<p style="margin-top: 20px;">Travel adapter 3-D CAD rendering</p>
 			</div>
 		</div>
 	</div>
