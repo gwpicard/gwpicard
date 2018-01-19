@@ -1,7 +1,7 @@
 ---
 layout: full-screen-scroll
-title: Technical Drawing
-permalink: '/technical-drawing'
+title: Visual Communication
+permalink: '/visual-comm'
 ---
 <script>document.body.className += ' fade-out';</script>
 
@@ -9,8 +9,8 @@ permalink: '/technical-drawing'
 	<div class="swiper-wrapper">
 		<div class="swiper-slide">
 	      	<div class="post-content" style="text-align: justify; width: 55%;">
-	      	<p>I learned <strong>technical drawing</strong> and <strong>computer-aided design</strong> (CAD) all throughout high school, and during my first year at university for aeromechanical engineering.</p>
-	      	<p>Below are samples of my work in this area.</p>
+	      	<p>I have always appreciated <strong>strong aesthetics</strong> </p>
+	      	<p>Below are various samples of my work in this area.</p>
 	      	</div>
 		</div>
 		<div class="swiper-slide">

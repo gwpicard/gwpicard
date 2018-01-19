@@ -6,8 +6,8 @@
 </description>
     <link>http://gwpicard.com/</link>
     <atom:link href="http://gwpicard.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 19 Jan 2018 18:00:14 +0530</pubDate>
-    <lastBuildDate>Fri, 19 Jan 2018 18:00:14 +0530</lastBuildDate>
+    <pubDate>Fri, 19 Jan 2018 18:57:31 +0530</pubDate>
+    <lastBuildDate>Fri, 19 Jan 2018 18:57:31 +0530</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -56,26 +56,6 @@
         
         
         <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>3D/2D CAD - Travel Adapter</title>
-        <description>&lt;p style=&quot;text-align:justify;&quot;&gt;This project was a coursework assignment I had to complete as part of my Aero-Mechanical Engineering curriculum. It is a combination of 2D and 3D CAD images generated using PTC Creo. The drawings were all completed to British Standards&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/gwpicard/gwpicard/gh-pages/assets/screen-shot-2015-02-28-at-11-04-57-e1425150468804.png?w=620&quot; alt=&quot;Screen Shot 2015-02-28 at 11.04.57&quot; width=&quot;620&quot; height=&quot;437&quot; class=&quot;alignnone size-large wp-image-64&quot; /&gt;&lt;br /&gt;
-&amp;nbsp;&lt;br /&gt;
-&lt;img src=&quot;https://raw.githubusercontent.com/gwpicard/gwpicard/gh-pages/assets/screen-shot-2015-02-28-at-10-57-46.png?w=620&quot; alt=&quot;Screen Shot 2015-02-28 at 10.57.46&quot; width=&quot;620&quot; height=&quot;315&quot; class=&quot;alignnone size-large wp-image-63&quot; /&gt;&lt;br /&gt;
-&amp;nbsp;&lt;br /&gt;
-&lt;img src=&quot;https://raw.githubusercontent.com/gwpicard/gwpicard/gh-pages/assets/screen-shot-2015-02-28-at-11-05-28-e1425150538539.png?w=620&quot; alt=&quot;Screen Shot 2015-02-28 at 11.05.28&quot; width=&quot;620&quot; height=&quot;437&quot; class=&quot;alignnone size-large wp-image-65&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;A full archive of the drawings is available here:&lt;br /&gt;
-&lt;a href=&quot;https://raw.githubusercontent.com/gwpicard/gwpicard/gh-pages/assets/creo-report-6.pdf&quot; target=&quot;_blank&quot;&gt;3D/2D CAD - Travel Adapter&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 01 Oct 2013 00:00:00 +0530</pubDate>
-        <link>http://gwpicard.com/travel-adapter</link>
-        <guid isPermaLink="true">http://gwpicard.com/travel-adapter</guid>
-        
-        
-        <category>project</category>
         
       </item>
     

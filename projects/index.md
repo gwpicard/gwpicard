@@ -14,6 +14,7 @@ title: Projects
 		  <h2>/ Skills</h2>
 		  <div style="margin-left: 30px;">
 		    <h3 class="portfolio-link"><a href="/technical-drawing">/ Technical Drawing</a></h3>
+		    <!--<h3 class="portfolio-link"><a href="/visual-comm">/ Visual Communication</a></h3>-->
 		  </div>
 		  <h2>/ Projects</h2>
 		  <div style="margin-left: 30px;">
