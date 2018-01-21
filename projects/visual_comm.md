@@ -22,7 +22,7 @@ permalink: '/visual-comm'
 		</div>
 		<div class="swiper-slide">
 			<div class="post-content">
-				<a href="https://docs.wixstatic.com/ugd/1c190f_034a7e25db13418981d8cfd3b69cb236.pdf" target="_blank"><img src="{{ site.git_assets_url }}/quick_ref.png" style="min-width: 600px; width: 60%;"/></a>
+				<a href="{{ site.git_assets_url }}/quick_reference_guide.pdf" target="_blank"><img src="{{ site.git_assets_url }}/quick_ref.png" style="min-width: 600px; width: 60%;"/></a>
 				<p style="margin-top: 20px;">Car Concept Engineering Design Project: <br>
 					Reference Guide Design and Editing<br>
 				<i>Microsoft Word and Adobe Photoshop</i></p>
@@ -30,10 +30,9 @@ permalink: '/visual-comm'
 		</div>
 		<div class="swiper-slide">
 			<div class="post-content">
-				<a href="https://docs.wixstatic.com/ugd/1c190f_034a7e25db13418981d8cfd3b69cb236.pdf" target="_blank"><img src="{{ site.git_assets_url }}/quick_ref.png" style="min-width: 600px; width: 60%;"/></a>
-				<p style="margin-top: 20px;">Car Concept Engineering Design Project: <br>
-					Reference Guide Design and Editing<br>
-				<i>Microsoft Word and Adobe Photoshop</i></p>
+				<a href="" target="_blank"><img src="{{ site.git_assets_url }}/science_text.png" style="min-width: 600px; width: 60%;"/></a>
+				<p style="margin-top: 20px;">Scientific Manuscript Editing and Layout<br>
+				<i>Microsoft Word and Latex</i></p>
 			</div>
 		</div>
 	</div>
