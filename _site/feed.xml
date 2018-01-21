@@ -6,58 +6,9 @@
 </description>
     <link>http://gwpicard.com/</link>
     <atom:link href="http://gwpicard.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 21 Jan 2018 12:52:03 +0530</pubDate>
-    <lastBuildDate>Sun, 21 Jan 2018 12:52:03 +0530</lastBuildDate>
+    <pubDate>Sun, 21 Jan 2018 12:59:59 +0530</pubDate>
+    <lastBuildDate>Sun, 21 Jan 2018 12:59:59 +0530</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
-    
-      <item>
-        <title>What I Learned from Working in Customer Service</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;Dear Mr. Smith,&lt;/p&gt;
-
-  &lt;p&gt;Thank you for getting in touch with us.&lt;/p&gt;
-
-  &lt;p&gt;We apologise for our late response, although we can assure you that everything is being taken care of. Once again, we apologise for any inconvenience and we thank you for your patience and understanding.&lt;/p&gt;
-
-  &lt;p&gt;Please let us know if there is anything further we can do to assist you.&lt;/p&gt;
-
-  &lt;p&gt;Best Regards,&lt;/p&gt;
-
-  &lt;p&gt;John&lt;/p&gt;
-
-  &lt;p&gt;Customer Service&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;.&lt;/p&gt;
-
-&lt;p&gt;The above message is probably a fair representation of a person’s typical experience with customer service - a kind of impersonal, non-committing passive aggressive cordial tone with a pinch of hope and a ray of consideration.&lt;/p&gt;
-
-&lt;p&gt;As a customer care agent, I replied to customer queries on a daily basis. With time, I came to understand some of the deeper problems associated with crafting of a “good” customer message. I had to adopt the company’s voice and communicate our ethos, all the while trying to remove my personal opinion from the equation (this is especially difficult to do in situations where I disagree with the standard course of action).&lt;/p&gt;
-
-&lt;p&gt;The vagueness of customer service language is tied to the legal complications that business communication entails. If I tell you that I will complete a task by tomorrow and then fail to do so, you will inevitably gain a position of leverage whereby the record of my promise becomes a well-evidenced inability to deliver - a mistake that could cost handsomely in the courtroom. It’s safer not to take any chances. This dialogue then quickly degrades into bastardised vernacular masked behind a coat of well-mannered formality, also known as the “we’re-terribly-sorry-about-the-mistake-but-we-are-unable-to-give-you-more-information-at-the-moment.”&lt;/p&gt;
-
-&lt;p&gt;My job made me question what the true purpose of customer service–as much as I had always disliked interacting with customer service agents in the past, here I was replicating the very behaviour I despised. The reality is two-fold - customer expectations and company fears. Customers sometimes forget than humans make mistakes and that there is always an inevitable cost to doing business.  and companies conveniently assume that customers don’t expect much from them while making sure that systems .&lt;/p&gt;
-
-&lt;p&gt;The art of customer service is honesty and openness. Customers are also people who can empathise, as long as the communication is respectful and friendly as when you would talk to an uncle or aunt. Legalese is a great way to get customers to stop asking questions, but it doesn’t grow customer trust and satisfaction.&lt;/p&gt;
-
-&lt;p&gt;I hope you enjoyed reading this post, have a great day!&lt;/p&gt;
-</description>
-        <pubDate>Tue, 05 Apr 2016 00:00:00 +0530</pubDate>
-        <link>http://gwpicard.com/blog/2016/04/05/what-i-learned-customer-service.html</link>
-        <guid isPermaLink="true">http://gwpicard.com/blog/2016/04/05/what-i-learned-customer-service.html</guid>
-        
-        <category>what I learned</category>
-        
-        <category>customer service</category>
-        
-        <category>customer</category>
-        
-        <category>service</category>
-        
-        
-        <category>blog</category>
-        
-      </item>
     
       <item>
         <title>Medical &quot;Google Glass&quot; prototype</title>
@@ -124,44 +75,6 @@
         <pubDate>Sun, 01 Jan 2012 00:00:00 +0530</pubDate>
         <link>http://gwpicard.com/project-pico</link>
         <guid isPermaLink="true">http://gwpicard.com/project-pico</guid>
-        
-        
-        <category>project</category>
-        
-      </item>
-    
-      <item>
-        <title>Lego SEGWAY</title>
-        <description>&lt;p&gt;&lt;img class=&quot;alignleft size-thumbnail wp-image-226&quot; title=&quot;Lego Segway&quot; src=&quot;https://raw.githubusercontent.com/gwpicard/gwpicard/gh-pages/assets/lego-segway.jpg&quot; alt=&quot;&quot; height=&quot;200&quot; /&gt;&lt;/p&gt;
-&lt;p style=&quot;text-align:justify;&quot;&gt;The Lego SEGWAY project started during an internship at the MINES ParisTech graduate department of &lt;a href=&quot;http://cas.ensmp.fr/&quot;&gt;Control and Automated Systems&lt;/a&gt;. The purpose of the project was to create to a self-balancing robot using Lego Mindstorms NXT 2.0 brick technology.&lt;/p&gt;
-&lt;p&gt;Here is a report of the entire project:&lt;br /&gt;
-&lt;a href=&quot;https://raw.githubusercontent.com/gwpicard/gwpicard/gh-pages/assets/lego-mindstorms-segway-project-report2.pdf&quot;&gt;LEGO Mindstorms Segway project Report&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Here is a Dropbox repository with all the related files which I refer to in the project report:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.dropbox.com/sh/646r2077vqjnxcz/uN2WbRXcyw&quot;&gt;SEGWAY DATABASE&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 01 Aug 2010 00:00:00 +0530</pubDate>
-        <link>http://gwpicard.com/lego-segway</link>
-        <guid isPermaLink="true">http://gwpicard.com/lego-segway</guid>
-        
-        
-        <category>project</category>
-        
-      </item>
-    
-      <item>
-        <title>Computer Mouse</title>
-        <description>&lt;p style=&quot;text-align:justify;&quot;&gt;This was a project that I completed in 2010 as part of my Scottish Higher Graphics &amp;amp; Communication final technical drawing portfolio.&lt;/p&gt;
-&lt;p&gt;&lt;a&gt;&lt;img class=&quot;alignleft size-full wp-image-188&quot; title=&quot;Mouse&quot; src=&quot;https://raw.githubusercontent.com/gwpicard/gwpicard/gh-pages/assets/mouse_1.jpg&quot; alt=&quot;&quot; width=&quot;500&quot; height=&quot;375&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a&gt;&lt;img class=&quot;alignleft size-full wp-image-193&quot; title=&quot;Mouse&quot; src=&quot;https://raw.githubusercontent.com/gwpicard/gwpicard/gh-pages/assets/mouse_2.jpg&quot; alt=&quot;&quot; width=&quot;500&quot; height=&quot;666&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a&gt;&lt;img class=&quot;alignleft size-full wp-image-192&quot; title=&quot;Mouse&quot; src=&quot;https://raw.githubusercontent.com/gwpicard/gwpicard/gh-pages/assets/mouse_3.jpg&quot; alt=&quot;&quot; width=&quot;500&quot; height=&quot;538&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a&gt;&lt;img class=&quot;alignleft size-full wp-image-191&quot; title=&quot;Mouse&quot; src=&quot;https://raw.githubusercontent.com/gwpicard/gwpicard/gh-pages/assets/mouse_4.jpg&quot; alt=&quot;&quot; width=&quot;500&quot; height=&quot;375&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a&gt;&lt;img class=&quot;alignleft size-full wp-image-190&quot; title=&quot;Mouse&quot; src=&quot;https://raw.githubusercontent.com/gwpicard/gwpicard/gh-pages/assets/mouse_5.jpg&quot; alt=&quot;&quot; width=&quot;500&quot; height=&quot;375&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a&gt;&lt;img class=&quot;alignleft size-full wp-image-189&quot; title=&quot;Mouse&quot; src=&quot;https://raw.githubusercontent.com/gwpicard/gwpicard/gh-pages/assets/mouse_6.jpg&quot; alt=&quot;&quot; width=&quot;500&quot; height=&quot;375&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a&gt;&lt;img class=&quot;alignleft size-full wp-image-194&quot; title=&quot;Mouse&quot; src=&quot;https://raw.githubusercontent.com/gwpicard/gwpicard/gh-pages/assets/mouse_7.jpg&quot; alt=&quot;&quot; width=&quot;500&quot; height=&quot;375&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 01 May 2010 00:00:00 +0530</pubDate>
-        <link>http://gwpicard.com/computer-mouse-technical-drawings</link>
-        <guid isPermaLink="true">http://gwpicard.com/computer-mouse-technical-drawings</guid>
         
         
         <category>project</category>
