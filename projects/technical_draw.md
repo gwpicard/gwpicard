@@ -16,31 +16,36 @@ permalink: '/technical-drawing'
 		<div class="swiper-slide">
 			<div class="post-content">
 				<img src="{{ site.git_assets_url }}/cross_section_0.jpg" style="min-width: 600px; width: 60%;"/>
-				<p style="margin-top: 20px;">Computer mouse orthographic cross-section drawing</p>
+				<p style="margin-top: 20px;">Computer mouse: orthographic cross-section<br>
+				<i>Hand Technical Drawing</i></p>
 			</div>
 		</div>
 		<div class="swiper-slide">
 			<div class="post-content">
 				<img src="{{ site.git_assets_url }}/cross_section.jpg" style="min-width: 600px; width: 60%;"/>
-				<p style="margin-top: 20px;">Computer mouse isometric cross-section drawing</p>
+				<p style="margin-top: 20px;">Computer mouse: isometric cross-section<br>
+				<i>Hand Technical Drawing</i></p>
 			</div>
 		</div>
 		<div class="swiper-slide">
 			<div class="post-content">
 				<img src="{{ site.git_assets_url }}/exploded_view.png" style="min-width: 600px;"/>
-				<p style="margin-top: 20px;">Travel adapter exploded CAD</p>
+				<p style="margin-top: 20px;">Travel adapter: exploded view<br>
+				<i>PTC Creo</i></p>
 			</div>
 		</div>
 		<div class="swiper-slide">
 			<div class="post-content">
 				<img src="{{ site.git_assets_url }}/iso_2.png" style="min-width: 600px;"/>
-				<p style="margin-top: 20px;">Travel adapter orthographic CAD</p>
+				<p style="margin-top: 20px;">Travel adapter: orthographic view<br>
+				<i>PTC Creo</i></p>
 			</div>
 		</div>
 		<div class="swiper-slide">
 			<div class="post-content">
 				<img src="{{ site.git_assets_url }}/rendered.png" style="min-width: 600px;"/>
-				<p style="margin-top: 20px;">Travel adapter 3-D CAD rendering</p>
+				<p style="margin-top: 20px;">Travel adapter: 3-D Rendering<br>
+				<i>PTC Creo</i></p>
 			</div>
 		</div>
 	</div>

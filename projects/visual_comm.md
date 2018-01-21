@@ -15,36 +15,20 @@ permalink: '/visual-comm'
 		</div>
 		<div class="swiper-slide">
 			<div class="post-content">
-				<img src="{{ site.git_assets_url }}/cross_section_0.jpg" style="min-width: 600px; width: 60%;"/>
-				<p style="margin-top: 20px;">Computer mouse orthographic cross-section drawing</p>
+				<a href="https://docs.wixstatic.com/ugd/1c190f_034a7e25db13418981d8cfd3b69cb236.pdf" target="_blank"><img src="{{ site.git_assets_url }}/the_year.png" style="min-width: 600px; width: 60%;"/></a>
+				<p style="margin-top: 20px;"><a href="https://minerva.kgi.edu" target="_blank">Minerva</a> <a href="http://www.kgi.edu/news-and-events/founding-class-of-the-minerva-schools-at-kgi-begin-classes">Founding Class</a> Yearbook: Design and Layout<br>
+				<i>Adobe Photoshop, Illustrator and In-Design</i></p>
 			</div>
 		</div>
 		<div class="swiper-slide">
 			<div class="post-content">
-				<img src="{{ site.git_assets_url }}/cross_section.jpg" style="min-width: 600px; width: 60%;"/>
-				<p style="margin-top: 20px;">Computer mouse isometric cross-section drawing</p>
-			</div>
-		</div>
-		<div class="swiper-slide">
-			<div class="post-content">
-				<img src="{{ site.git_assets_url }}/exploded_view.png" style="min-width: 600px;"/>
-				<p style="margin-top: 20px;">Travel adapter exploded CAD</p>
-			</div>
-		</div>
-		<div class="swiper-slide">
-			<div class="post-content">
-				<img src="{{ site.git_assets_url }}/iso_2.png" style="min-width: 600px;"/>
-				<p style="margin-top: 20px;">Travel adapter orthographic CAD</p>
-			</div>
-		</div>
-		<div class="swiper-slide">
-			<div class="post-content">
-				<img src="{{ site.git_assets_url }}/rendered.png" style="min-width: 600px;"/>
-				<p style="margin-top: 20px;">Travel adapter 3-D CAD rendering</p>
+				<a href="https://docs.wixstatic.com/ugd/1c190f_034a7e25db13418981d8cfd3b69cb236.pdf" target="_blank"><img src="{{ site.git_assets_url }}/the_year.png" style="min-width: 600px; width: 60%;"/></a>
+				<p style="margin-top: 20px;"><a href="https://minerva.kgi.edu" target="_blank">Minerva</a> <a href="http://www.kgi.edu/news-and-events/founding-class-of-the-minerva-schools-at-kgi-begin-classes">Founding Class</a> Yearbook: Design and Layout<br>
+				<i>Adobe Photoshop, Illustrator and In-Design</i></p>
 			</div>
 		</div>
 	</div>
-	<div class="swiper-button-next swiper-button-black" style="right: 50%; top: 92%;   transform: rotate(90deg) translateX(-50%);"></div>
+	<div class="swiper-button-next swiper-button-black" style="right: 47.5%; top: 92%;   transform: rotate(90deg) translateX(-50%);"></div>
 </div>
 
 
