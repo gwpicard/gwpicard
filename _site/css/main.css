@@ -459,6 +459,15 @@ Swiper
   -webkit-align-items: center;
   align-items: center; }
 
+#fire-sim {
+  width: 600px; }
+  @media screen and (max-width: 820px) {
+    #fire-sim {
+      width: 500px; } }
+  @media screen and (max-width: 600px) {
+    #fire-sim {
+      width: 300px; } }
+
 /**
  * Syntax highlighting styles
  */

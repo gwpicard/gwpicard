@@ -1,0 +1,41 @@
+---
+layout: full-screen-scroll
+title: Fire Simulation
+permalink: '/fire-simulation'
+---
+<script>document.body.className += ' fade-out';</script>
+
+<div class="swiper-container">
+	<div class="swiper-wrapper">
+		<div class="swiper-slide">
+	      	<div class="post-content" style="text-align: justify; width: 70%;">
+	      	<p> Cellular Automata are a great way to investigate the macroscopic dynamics of simple mechanisms, such as the endemic spread of disease or fire. In this project, I investigated the impact of tree density in a forest on the risk of forest fires.
+	      	</p>
+
+	      	<p>The full Jupyter Notebook and code is available <a href="https://github.com/gwpicard/Portfolio/blob/master/Fire_simulation.ipynb" target="_blank">here</a>.</p>
+	      	</div>
+		</div>
+		<div class="swiper-slide">
+			<div class="post-content">
+				<video id="fire-sim" src="forest_fire.mp4" width="600" autoplay loop ></video>
+				<p style="margin-top: 20px;">Animation of forest fire spreading</p>
+			</div>
+		</div>
+		<div class="swiper-slide">
+			<div class="post-content">
+				<img src="{{ site.git_assets_url }}/graph_fire_progress.png" style="min-width: 600px;"/>
+				<p style="margin-top: 20px;">Travel Adapter: Orthographic view<br>
+				<i>PTC Creo</i></p>
+			</div>
+		</div>
+	</div>
+	<div class="swiper-button-next swiper-button-black" style="right: 50%; top: 92%;   transform: rotate(90deg) translateX(-50%);"></div>
+</div>
+
+
+<script>
+	$(document).ready(function(){
+	    $('body').removeClass('fade-out');
+	});
+
+</script>

@@ -383,3 +383,15 @@ Swiper
       -webkit-align-items: center;
       align-items: center;
     }
+
+//Fire Sim
+#fire-sim {
+    width: 600px;
+
+    @include media-query($on-laptop) {
+      width: 500px;
+    }
+    @include media-query($on-palm) {
+      width: 300px;
+    }
+}
