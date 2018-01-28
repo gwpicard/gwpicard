@@ -8,9 +8,12 @@ title: About
 <div class="swiper-container">
 	<div class="swiper-wrapper">
 		<div class="swiper-slide">
-	      	<div class="post-content" style="width: 90%;">
-	      		<h1 class="portfolio-link">Highly analytical <img src="/assets/analytic.png" width="54em;">, <nobr>infinitely curious ∞</nobr> <br />
-				I love to create things, and solve <a style="text-decoration: underline;" href="/portfolio">problems</a>.</h1>
+	      	<div class="post-content" style="width: 90%; text-align: justify;">
+	      		<p>I am a Founding Student at the <a style="text-decoration: underline;" href="https://minerva.kgi.edu" target="_blank"> Minerva Schools at KGI</a>, a reinvented university for the 21st century with innovative academics and an immersive global experience.</p>
+
+	      		<p>Prior to my transfer to Minerva, I studied Aero-Mechanical Engineering at the <a style="text-decoration: underline;" href="https://www.strath.ac.uk/" target="_blank">University of Strathclyde</a> in Scotland, where I launched and led the university’s <a style="text-decoration: underline;" href="https://www.ted.com/tedx/events/11674" target="_blank">first-ever live TEDx event</a> (still ongoing today).</p>
+
+				<p>In pursuing diverse interests in technology, education and problem-solving, I have collaborated with researchers in the medical sciences and applied physics in labs across 3 continents, helped revise curricula in computer science and statistics at Minerva, worked at an <a style="text-decoration: underline;" href="http://kano.me/" target="_blank">EdTech startup</a> coordinating logistics and running user research workshops, and built simulation models at Apple as a data scientist.</p>
 			</div>
 	  	</div>
 		<div class="swiper-slide" style="background-image:url('/about.jpg'); height: 100%; background-repeat: no-repeat; background-position: center center; background-size: cover; overflow: hidden;">

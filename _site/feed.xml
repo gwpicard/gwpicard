@@ -6,80 +6,9 @@
 </description>
     <link>http://gwpicard.com/</link>
     <atom:link href="http://gwpicard.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 21 Jan 2018 12:59:59 +0530</pubDate>
-    <lastBuildDate>Sun, 21 Jan 2018 12:59:59 +0530</lastBuildDate>
+    <pubDate>Sun, 28 Jan 2018 16:29:57 +0530</pubDate>
+    <lastBuildDate>Sun, 28 Jan 2018 16:29:57 +0530</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
-    
-      <item>
-        <title>Medical &quot;Google Glass&quot; prototype</title>
-        <description>&lt;p style=&quot;text-align:justify;&quot;&gt;This is a research project I worked on while working at the Golden Jubilee National Hospital in Scotland, UK in 2012.&lt;/p&gt;
-&lt;p style=&quot;text-align:justify;&quot;&gt;The goal was to design a portable device with a live-video feed that would allow a junior surgeon/trainee to monitor a surgery from the senior surgeon's point of view.&lt;/p&gt;
-&lt;p style=&quot;text-align:justify;&quot;&gt;Early versions of the research prototype involved development using a repurposed CMOS camera module, then moving onto a Raspberry Pi/webcam interface, and finally modifying an extreme sports camera circuitboard.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Prototype: V1&lt;/strong&gt;&lt;br /&gt;
-&lt;img src=&quot;https://raw.githubusercontent.com/gwpicard/gwpicard/gh-pages/assets/86709bb2-0b86-4fa8-893c-f32cabd1d696-large.png?w=620&quot; alt=&quot;86709bb2-0b86-4fa8-893c-f32cabd1d696-large&quot; width=&quot;620&quot; height=&quot;450&quot; class=&quot;alignnone size-large wp-image-90&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Prototype: V3&lt;/strong&gt;&lt;br /&gt;
-&lt;img src=&quot;https://raw.githubusercontent.com/gwpicard/gwpicard/gh-pages/assets/photo.jpg?w=620&quot; alt=&quot;photo&quot; width=&quot;620&quot; height=&quot;465&quot; class=&quot;alignnone size-large wp-image-88&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;I presented the concept at CAOS (Computer Assisted Orthopaedic Surgery) UK in Nov 2013. &lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;The full presentation can be accessed below:&lt;/strong&gt;&lt;br /&gt;
-&lt;a href=&quot;https://raw.githubusercontent.com/gwpicard/gwpicard/gh-pages/assets/helmet-gwp_20_11_13.pdf&quot; target=&quot;_blank&quot;&gt;CAOS_UK_13_pres&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 01 Oct 2012 00:00:00 +0530</pubDate>
-        <link>http://gwpicard.com/medical-google-glass-prototype</link>
-        <guid isPermaLink="true">http://gwpicard.com/medical-google-glass-prototype</guid>
-        
-        <category>Google glass</category>
-        
-        <category>video</category>
-        
-        <category>surgery</category>
-        
-        <category>medical</category>
-        
-        
-        <category>project</category>
-        
-      </item>
-    
-      <item>
-        <title>Project Pico</title>
-        <description>&lt;script&gt;document.body.className += ' fade-out';&lt;/script&gt;
-
-&lt;div class=&quot;swiper-container&quot;&gt;
-	&lt;div class=&quot;swiper-wrapper&quot;&gt;
-		&lt;div class=&quot;swiper-slide&quot;&gt;
-	      	&lt;div class=&quot;post-content&quot; style=&quot;text-align: justify; width: 55%;&quot;&gt;
-	      	&lt;p&gt;&lt;strong&gt;/ Project Pico&lt;/strong&gt; was an engineering project led by Guillaume Picard and Gautam Rai from the Mahindra United World College of India.&lt;/p&gt;
-	      	&lt;p&gt;The goal: build a fully functional go-kart exclusively from repurposed materials. The kart was completed in its most basic form in May 2012.&lt;/p&gt;
-	      	&lt;p&gt;The project was fully funded by the science department in the college.&lt;/p&gt;
-	      	&lt;/div&gt;
-		&lt;/div&gt;
-		&lt;div class=&quot;swiper-slide&quot;&gt;
-			&lt;div class=&quot;post-content&quot;&gt;
-				&lt;a href=&quot;http://muwcigokartproject.wordpress.com/&quot;&gt;&lt;img src=&quot;https://raw.githubusercontent.com/gwpicard/gwpicard/gh-pages/assets/kart.jpg?w=620&quot; style=&quot;min-width: 620px;&quot;/&gt;&lt;/a&gt;
-				&lt;p style=&quot;margin-top: 20px;&quot;&gt;A full archive of the project is available here:&lt;br /&gt;
-				&lt;a href=&quot;http://muwcigokartproject.wordpress.com/&quot;&gt;http://muwcigokartproject.wordpress.com/&lt;/a&gt;&lt;/p&gt;
-			&lt;/div&gt;
-		&lt;/div&gt;
-	&lt;/div&gt;
-	&lt;div class=&quot;swiper-button-next swiper-button-black&quot; style=&quot;right: 47.5%; top: 92%;   transform: rotate(90deg) translateX(-50%);&quot;&gt;&lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;script&gt;
-	$(document).ready(function(){
-	    $('body').removeClass('fade-out');
-	});
-
-&lt;/script&gt;
-</description>
-        <pubDate>Sun, 01 Jan 2012 00:00:00 +0530</pubDate>
-        <link>http://gwpicard.com/project-pico</link>
-        <guid isPermaLink="true">http://gwpicard.com/project-pico</guid>
-        
-        
-        <category>project</category>
-        
-      </item>
     
   </channel>
 </rss>
