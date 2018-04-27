@@ -13,7 +13,7 @@ title: About
 
 	      		<p>Prior to Minerva, I briefly studied Aero-Mechanical Engineering at the <a style="text-decoration: underline;" href="https://www.strath.ac.uk/" target="_blank">University of Strathclyde</a> in Scotland, where I launched the university’s <a style="text-decoration: underline;" href="https://www.ted.com/tedx/events/11674" target="_blank">first-ever live TEDx event</a></p>
 
-				<p>In pursuing diverse interests in technology, education and problem-solving, I have collaborated with researchers in labs across 3 continents, helped revise curricula in CS and statistics, worked at an <a style="text-decoration: underline;" href="http://kano.me/" target="_blank">Creative Computer startup</a> on logistics and user research, and built computer simulation models at Apple.</p>
+				<p>In pursuing diverse interests in technology, education and problem-solving, I have collaborated with researchers in labs across 3 continents, helped revise curricula in CS and statistics, worked at a <a style="text-decoration: underline;" href="http://kano.me/" target="_blank">Creative Computer startup</a> on logistics and user research, and built computer simulation models at Apple.</p>
 			</div>
 	  	</div>
 		<div class="swiper-slide" style="background-image:url('/about.jpg'); height: 100%; background-repeat: no-repeat; background-position: center center; background-size: cover; overflow: hidden;">
