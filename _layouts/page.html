@@ -1,14 +1,17 @@
----
-layout: default
----
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
 
-<section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
-	<div class="inner-hero text-container">
-		<div class="hero-text-container">
-			<h1>{{ page.title }}</h1>
-			<p class="subtext">{{ page.description }}</p>
-		</div>
-	</div>
-</section>
+{% include head.html %}
 
-{{ content }}
+<body>
+
+    {% include header.html %} {{ content }} {% include footer.html %}
+
+</body>
+
+</html>
