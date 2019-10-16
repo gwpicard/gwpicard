@@ -592,15 +592,3 @@ footer {
         fill: #bd081c; }
       footer ul li a.rss-icon:hover svg {
         fill: #f26522; }
-
-.copyright {
-  margin: 15px auto;
-  float: left; }
-  .copyright a {
-    color: #999; }
-  @media (min-width: 768px) {
-    .copyright {
-      text-align: center;
-      float: none;
-      padding: 16px 0;
-      margin: 0; } }
