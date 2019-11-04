@@ -1,7 +1,7 @@
 # site settings
 title: gwpicard
 subtitle: 
-email: youremailaddress@gmail.com
+email: 
 description: I solve interesting problems using data
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://gwpicard.com" # the base hostname & protocol for your site
