@@ -4,7 +4,7 @@ subtitle:
 email: 
 description: I solve interesting problems using data
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://gwpicard.com" # the base hostname & protocol for your site
+url: "gwpicard.com" # the base hostname & protocol for your site
 author:
 street_address: 
 city: 
