@@ -1,0 +1,8 @@
+body, html {
+    font-family: Helvetica, sans-serif;
+}
+
+span {
+    font-size: 100px;
+    color: red;
+}
