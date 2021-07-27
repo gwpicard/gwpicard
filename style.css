@@ -1,8 +1,38 @@
 body, html {
     font-family: Helvetica, sans-serif;
+    width: 100%;
+    min-width: 850px;
 }
 
-span {
-    font-size: 100px;
-    color: red;
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+header {
+    display: flex;
+}
+
+.title {
+    width: 10em;
+    text-align: left;
+    margin-left: 2em;
+}
+
+nav {
+    margin : auto 0;
+    display: flex;
+}
+
+.nav-p {
+    margin : auto 10px;
+}
+
+.nav-p:hover {
+    text-decoration: underline;
+}
+
+main {
+    margin: 0 auto;
+    width: 850px;
 }
