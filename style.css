@@ -4,19 +4,35 @@ body, html {
     min-width: 850px;
 }
 
-a:link { text-decoration: none; }
-a:visited { text-decoration: none; }
-a:hover { text-decoration: none; }
-a:active { text-decoration: none; }
+a:link { text-decoration: none; color: inherit;}
+a:visited { text-decoration: none; color: inherit;}
+a:hover { text-decoration: none; color: inherit;}
+a:active { text-decoration: none; color: inherit;}
+
+/* HEADER -- FOOTER */
 
 header {
     display: flex;
 }
 
+footer {
+    width: 850px;
+    margin: 15px auto;
+    color: dimgray;
+    font-size: 0.75em;
+}
+
+/* ---- */
+
 .title {
+    color: #4169E1;
     width: 10em;
     text-align: left;
     margin-left: 2em;
+}
+
+.page-title {
+    margin: auto 0;
 }
 
 nav {
@@ -26,13 +42,28 @@ nav {
 
 .nav-p {
     margin : auto 10px;
+    font-weight: bold;
 }
 
 .nav-p:hover {
     text-decoration: underline;
+    color: #4169E1;
 }
 
 main {
     margin: 0 auto;
     width: 850px;
+}
+
+#bio {
+    font-size: 1.4em;
+    line-height: 1.4em;
+}
+
+#profile-links {
+    font-size: 1em;
+}
+
+.links {
+    color: #4169E1;
 }
