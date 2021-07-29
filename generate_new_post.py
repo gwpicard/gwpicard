@@ -9,16 +9,17 @@ raw_page = """<!doctype html>
         <meta charset="UTF-8">
         <title> gwpicard </title>
         <link rel="shortcut icon" type="image/ico" href="favicon.ico"/>
-        <link href="style.css" type="text/css" rel="stylesheet" /> 
+        <link href="../style.css" type="text/css" rel="stylesheet" /> 
     </head>
     <body>
         <header>
             <h1 class="title"><a href="/">gwpicard</a></h1>
-            <h2 class="page-title">/blog/Untitled</h2>
+            <h2 class="page-title">/blog</h2>
         </header>
         <main>
             <div class="content">
-                tbd
+                <h1>Title</h1>
+                <p>content</p>
             </div>
         </main>
         <footer></footer>
