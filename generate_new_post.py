@@ -8,7 +8,7 @@ raw_page = """<!doctype html>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="UTF-8">
         <title> gwpicard </title>
-        <link rel="shortcut icon" type="image/ico" href="favicon.ico"/>
+        <link rel="shortcut icon" type="image/ico" href="../favicon.ico"/>
         <link href="../style.css" type="text/css" rel="stylesheet" /> 
     </head>
     <body>
@@ -18,7 +18,9 @@ raw_page = """<!doctype html>
         </header>
         <main>
             <div class="content">
+                <p class="post-date">xx-xx-20xx</p>
                 <h1>Title</h1>
+                <p style="text-align: center;">. &nbsp;&nbsp;. &nbsp;&nbsp;.</p>
                 <p>content</p>
             </div>
         </main>
