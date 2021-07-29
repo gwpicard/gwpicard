@@ -18,11 +18,11 @@ header {
 footer {
     width: 850px;
     margin: 15px auto;
-    color: dimgray;
-    font-size: 0.75em;
 }
 
-/* ---- */
+
+
+/* PAGE STYLING */
 
 .title {
     color: #4169E1;
@@ -60,10 +60,29 @@ main {
     line-height: 1.4em;
 }
 
+/* SPECIFIC TEXT STYLE */
+
+.links {
+    color: #4169E1;
+}
+
+.small-grey {
+    font-style: italic;
+    color: dimgray;
+    font-size: 0.7em;
+}
+
+/* HOME PAGE */
+
 #profile-links {
     font-size: 1em;
 }
 
-.links {
-    color: #4169E1;
+/* BLOG */
+
+.post-date {
+    color: dimgray;
+    font-size: 0.6em;
+    margin: 0;
+    margin-bottom: -1.5em;
 }
