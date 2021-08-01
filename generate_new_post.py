@@ -18,16 +18,21 @@ raw_page = """<!doctype html>
         </header>
         <main>
             <div class="content">
-                <p class="post-date">xx-xx-20xx</p>
-                <h1>Title</h1>
+                <p class="post-date">XX-XX-20XX</p>
+                <h1 class="post-title">Untitled</h1>
                 <p style="text-align: center;">. &nbsp;&nbsp;. &nbsp;&nbsp;.</p>
-                <p>content</p>
+                <p>
+                    start text
+                </p>
+                <p style="text-align: center;">. &nbsp;&nbsp;. &nbsp;&nbsp;.</p>
+                <p class="small-grey" style="text-align: center;">undertext</p> 
             </div>
         </main>
         <footer></footer>
     </body>
 
 </html>
+
 """
 
 
