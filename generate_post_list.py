@@ -2,11 +2,19 @@ import os
 import codecs
 from bs4 import BeautifulSoup
 import datetime
-POST_PATH = "posts"
+from convert_markdown import generate_html_from_markdown
 
+POST_PATH = "posts"
+MD_PATH = "{}/md".format(POST_PATH)
+md_file_list = [md.split(".")[0] for md in os.listdir(MD_PATH) if md.endswith(".md")]
+
+# create html version of posts
+generate_html_from_markdown(md_file_list)
+
+html_file_list = [f for f in os.listdir(POST_PATH) if f.endswith(".html")]
 post_list = []
 
-for post in os.listdir(POST_PATH):
+for post in html_file_list:
     g=codecs.open("{}/{}".format(POST_PATH, post), 'r')
     f = g.read()
     soup = BeautifulSoup(f, 'html.parser')
@@ -23,8 +31,8 @@ for post in os.listdir(POST_PATH):
 
 sorted_post_list = sorted(post_list, key=lambda x:x[0], reverse=True)
 
+# create sorted html list elements 
 final = []
-
 for date, title, link in sorted_post_list:
     list_item = '<p> {} &nbsp; <span class="links"><a href="/{}/{}">{}</a></span></p>'.format(
         date.strftime("%Y-%m-%d"),
