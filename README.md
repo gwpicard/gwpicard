@@ -1,3 +1,3 @@
 # gwpicard
 
-My personal website
+Personal website
