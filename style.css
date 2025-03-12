@@ -19,8 +19,10 @@ header {
 }
 
 footer {
-    width: 850px;
-    margin: 15px auto;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    margin: 15px 20px;
 }
 
 
@@ -31,7 +33,7 @@ footer {
     color: #4b86b4;
     width: 10em;
     text-align: left;
-    margin-left: 2em;
+    margin-left: 20px;
 }
 
 .page-title {
