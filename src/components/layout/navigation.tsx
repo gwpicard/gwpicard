@@ -10,7 +10,7 @@ export function Navigation() {
             <div className="container flex h-14 items-center">
                 <div className="mr-4 flex">
                     <Link href="/" className="mr-6 flex items-center space-x-2">
-                        <span className="font-bold">Guillaume Picard</span>
+                        <span className="font-bold">gwpicard</span>
                     </Link>
                     <nav className="flex items-center space-x-6 text-sm font-medium">
                         <Link href="/how-i-can-help" className="transition-colors hover:text-foreground/80">Services</Link>
