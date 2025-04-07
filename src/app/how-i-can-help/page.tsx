@@ -130,10 +130,10 @@ export default function HowICanHelp() {
 
                 <div className="mx-auto text-center">
                     <p className="mb-4 text-muted-foreground">
-                        Ready to chat?
+                        Have something in mind?
                     </p>
                     <Link href="/contact">
-                        <Button size="lg">Book an intro call</Button>
+                        <Button size="lg">Let's talk</Button>
                     </Link>
                 </div>
             </div>

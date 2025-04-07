@@ -23,14 +23,14 @@ export default function Home() {
                 </div>
             </section>
 
-            <section className="container space-y-6 py-8 md:py-12 lg:py-24">
-                <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
+            <section className="container py-8 md:py-12 lg:py-24">
+                <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center mb-16">
                     <h2 className="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl">
                         How I Can Help
                     </h2>
                 </div>
 
-                <div className="mx-auto grid justify-center gap-6 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-3">
+                <div className="mx-auto grid justify-center gap-6 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-3 mb-12">
                     <div className="relative overflow-hidden rounded-lg border bg-background p-2">
                         <div className="flex h-[240px] flex-col justify-between rounded-md p-6">
                             <div className="space-y-4">
@@ -80,11 +80,11 @@ export default function Home() {
 
                 <div className="mx-auto text-center">
                     <p className="mb-6 text-muted-foreground">
-                        Let's chat!
+                        Interested in working together?
                     </p>
                     <div className="space-x-4">
                         <Link href="/contact">
-                            <Button size="lg">Book an intro call</Button>
+                            <Button size="lg">Schedule a chat</Button>
                         </Link>
                     </div>
                 </div>
