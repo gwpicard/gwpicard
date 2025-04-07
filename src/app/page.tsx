@@ -9,10 +9,10 @@ export default function Home() {
                 <ParticlesBackground />
                 <div className="container relative flex max-w-[64rem] flex-col items-center gap-8 text-center">
                     <h1 className="font-heading text-3xl sm:text-5xl md:text-6xl lg:text-7xl">
-                        I work with teams to turn data-driven ideas into real solutions.
+                        I turn data-driven ideas <br></br>into real solutions.
                     </h1>
-                    <p className="max-w-[42rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8">
-                        Whether you're exploring what AI can do or have a project in mind, I can help.
+                    <p className="max-w-[46rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8">
+                        If you're exploring what AI can do or already have a project in mind, I can help.
                     </p>
                     <div className="space-x-4">
                         <Link href="/how-i-can-help">

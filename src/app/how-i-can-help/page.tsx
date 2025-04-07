@@ -1,9 +1,13 @@
+"use client"
+
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
+import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui"
 
 const offers = [
     {
         title: "Discover What's Possible",
+        id: "discover",
         duration: "1–2 weeks",
         description: "A focused engagement to define high-impact data or AI opportunities for your business. Whether you have a specific problem in mind or you're unsure where to start, I'll pinpoint feasible use cases and create a short roadmap.",
         deliverables: [
@@ -19,6 +23,7 @@ const offers = [
     },
     {
         title: "Make Sense of Your Data",
+        id: "analyze",
         duration: "2–4 weeks",
         description: "A deeper dive into your existing data. I'll clean it up, analyze trends, and build custom dashboards or visual reports that help you make data-backed decisions—no guesswork needed.",
         deliverables: [
@@ -35,7 +40,8 @@ const offers = [
     },
     {
         title: "Build Smart Tools & MVPs",
-        duration: "4–6 weeks",
+        id: "build",
+        duration: "4–8 weeks",
         description: "I build a working solution—ranging from a small AI tool that automates a manual process to a full MVP you can pitch, demo, or launch. Perfect for showing investors, validating your product idea, or saving time on critical tasks.",
         deliverables: [
             "Functional prototype or MVP (frontend + backend)",
@@ -75,61 +81,68 @@ export default function HowICanHelp() {
                     </p>
                 </div>
 
-                <div className="space-y-12">
-                    {offers.map((offer) => (
-                        <div
-                            key={offer.title}
-                            id={offer.title === "Discover What's Possible" ? "discover" :
-                                offer.title === "Make Sense of Your Data" ? "analyze" :
-                                    offer.title === "Build Smart Tools & MVPs" ? "build" : undefined}
-                            className="rounded-lg border bg-card p-8 shadow-sm scroll-mt-20"
-                        >
-                            <div className="space-y-4">
-                                <div>
-                                    <h2 className="font-heading text-2xl">{offer.title}</h2>
-                                    <p className="text-sm text-muted-foreground">{offer.duration}</p>
-                                </div>
-                                <div>
-                                    <h3 className="font-medium">What It Is</h3>
-                                    <p className="mt-2 text-muted-foreground">{offer.description}</p>
-                                </div>
-                                <div>
-                                    <h3 className="font-medium">What You Get</h3>
-                                    <ul className="mt-2 space-y-2 text-muted-foreground">
-                                        {offer.deliverables.map((item) => (
-                                            <li key={item}>• {item}</li>
-                                        ))}
-                                    </ul>
-                                </div>
-                                <div>
-                                    <h3 className="font-medium">Ideal For</h3>
-                                    <ul className="mt-2 space-y-2 text-muted-foreground">
-                                        {offer.idealFor.map((item) => (
-                                            <li key={item}>• {item}</li>
-                                        ))}
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    ))}
-                </div>
-
-                <div className="space-y-6">
-                    <h2 className="font-heading text-2xl">Optional Add-Ons</h2>
-                    <div className="grid gap-4 md:grid-cols-2">
-                        {addOns.map((addon) => (
-                            <div
-                                key={addon.title}
-                                className="rounded-lg border bg-card p-6"
+                <Tabs defaultValue="discover" className="w-full">
+                    <TabsList className="grid w-full grid-cols-3">
+                        {offers.map((offer) => (
+                            <TabsTrigger
+                                key={offer.id}
+                                value={offer.id}
                             >
-                                <h3 className="font-medium">{addon.title}</h3>
-                                <p className="mt-2 text-sm text-muted-foreground">
-                                    {addon.description}
-                                </p>
-                            </div>
+                                {offer.title}
+                            </TabsTrigger>
                         ))}
-                    </div>
-                </div>
+                    </TabsList>
+                    {offers.map((offer) => (
+                        <TabsContent key={offer.id} value={offer.id}>
+                            <div className="rounded-lg border bg-card p-8 shadow-sm">
+                                <div className="space-y-4">
+                                    <div>
+                                        <h2 className="font-heading text-2xl">{offer.title}</h2>
+                                        <p className="text-sm text-muted-foreground">{offer.duration}</p>
+                                    </div>
+                                    <div>
+                                        <h3 className="font-medium">What It Is</h3>
+                                        <p className="mt-2 text-muted-foreground">{offer.description}</p>
+                                    </div>
+                                    <div>
+                                        <h3 className="font-medium">What You Get</h3>
+                                        <ul className="mt-2 space-y-2 text-muted-foreground">
+                                            {offer.deliverables.map((item) => (
+                                                <li key={item}>• {item}</li>
+                                            ))}
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <h3 className="font-medium">Ideal For</h3>
+                                        <ul className="mt-2 space-y-2 text-muted-foreground">
+                                            {offer.idealFor.map((item) => (
+                                                <li key={item}>• {item}</li>
+                                            ))}
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            {offer.id === "build" && (
+                                <div className="mt-8 space-y-6">
+                                    <h2 className="font-heading text-2xl">Optional Add-Ons</h2>
+                                    <div className="grid gap-4 md:grid-cols-2">
+                                        {addOns.map((addon) => (
+                                            <div
+                                                key={addon.title}
+                                                className="rounded-lg border bg-card p-6"
+                                            >
+                                                <h3 className="font-medium">{addon.title}</h3>
+                                                <p className="mt-2 text-sm text-muted-foreground">
+                                                    {addon.description}
+                                                </p>
+                                            </div>
+                                        ))}
+                                    </div>
+                                </div>
+                            )}
+                        </TabsContent>
+                    ))}
+                </Tabs>
 
                 <div className="mx-auto text-center">
                     <p className="mb-4 text-muted-foreground">
