@@ -30,44 +30,50 @@ export default function Home() {
                     </h2>
                 </div>
 
-                <div className="mx-auto grid justify-center gap-4 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-3">
+                <div className="mx-auto grid justify-center gap-6 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-3">
                     <div className="relative overflow-hidden rounded-lg border bg-background p-2">
-                        <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
-                            <div className="space-y-2">
-                                <h3 className="font-bold">Explore & Prioritize</h3>
-                                <p className="text-sm text-muted-foreground">
+                        <div className="flex h-[240px] flex-col justify-between rounded-md p-6">
+                            <div className="space-y-4">
+                                <h3 className="text-xl font-bold">Explore & Prioritize</h3>
+                                <p className="text-sm leading-relaxed text-muted-foreground">
                                     Identify high-impact data or AI opportunities before investing time and resources. We'll assess feasibility, risks, and map out next steps.
                                 </p>
                             </div>
-                            <Link href="/how-i-can-help" className="w-full">
-                                <Button variant="outline" className="w-full">Learn More</Button>
-                            </Link>
+                            <div className="pt-6">
+                                <Link href="/how-i-can-help" className="w-full">
+                                    <Button variant="outline" className="w-full">Learn More</Button>
+                                </Link>
+                            </div>
                         </div>
                     </div>
                     <div className="relative overflow-hidden rounded-lg border bg-background p-2">
-                        <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
-                            <div className="space-y-2">
-                                <h3 className="font-bold">Make Sense of Your Data</h3>
-                                <p className="text-sm text-muted-foreground">
+                        <div className="flex h-[240px] flex-col justify-between rounded-md p-6">
+                            <div className="space-y-4">
+                                <h3 className="text-xl font-bold">Make Sense of Your Data</h3>
+                                <p className="text-sm leading-relaxed text-muted-foreground">
                                     Transform raw data into clear, actionable insights. I'll organize, visualize, and uncover patterns that drive real decisions.
                                 </p>
                             </div>
-                            <Link href="/how-i-can-help" className="w-full">
-                                <Button variant="outline" className="w-full">Learn More</Button>
-                            </Link>
+                            <div className="pt-6">
+                                <Link href="/how-i-can-help" className="w-full">
+                                    <Button variant="outline" className="w-full">Learn More</Button>
+                                </Link>
+                            </div>
                         </div>
                     </div>
                     <div className="relative overflow-hidden rounded-lg border bg-background p-2">
-                        <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
-                            <div className="space-y-2">
-                                <h3 className="font-bold">Build Smart Tools & MVPs</h3>
-                                <p className="text-sm text-muted-foreground">
+                        <div className="flex h-[240px] flex-col justify-between rounded-md p-6">
+                            <div className="space-y-4">
+                                <h3 className="text-xl font-bold">Build Smart Tools & MVPs</h3>
+                                <p className="text-sm leading-relaxed text-muted-foreground">
                                     Create a working prototype or AI tool, complete with real or sample data. Perfect for pitching, testing, or saving time on key tasks.
                                 </p>
                             </div>
-                            <Link href="/how-i-can-help" className="w-full">
-                                <Button variant="outline" className="w-full">Learn More</Button>
-                            </Link>
+                            <div className="pt-6">
+                                <Link href="/how-i-can-help" className="w-full">
+                                    <Button variant="outline" className="w-full">Learn More</Button>
+                                </Link>
+                            </div>
                         </div>
                     </div>
                 </div>
