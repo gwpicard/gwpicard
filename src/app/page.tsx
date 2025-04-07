@@ -10,7 +10,7 @@ export default function Home() {
                         I help teams turn data-driven ideas into working tools. Fast.
                     </h1>
                     <p className="max-w-[42rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8">
-                        Whether you need insight, automation, or a product prototype — I'll help you figure out what to build, then build it.
+                        Whether you're exploring AI opportunities, want clearer data insights, or need a quick MVP, I've got you covered.
                     </p>
                     <div className="space-x-4">
                         <Link href="/how-i-can-help">
@@ -26,7 +26,7 @@ export default function Home() {
             <section className="container space-y-6 py-8 md:py-12 lg:py-24">
                 <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
                     <h2 className="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl">
-                        What I Can Build
+                        How I Can Help
                     </h2>
                     <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
                         From data analysis to full-stack applications, I can help you build the tools you need.
@@ -39,7 +39,7 @@ export default function Home() {
                             <div className="space-y-2">
                                 <h3 className="font-bold">Make Sense of Your Data</h3>
                                 <p className="text-sm text-muted-foreground">
-                                    Transform raw data into actionable insights with custom analytics and visualizations.
+                                    Transform raw data into actionable insights. I'll organize, visualize, and uncover the patterns that drive decisions.
                                 </p>
                             </div>
                         </div>
@@ -49,7 +49,7 @@ export default function Home() {
                             <div className="space-y-2">
                                 <h3 className="font-bold">Build Smart Tools</h3>
                                 <p className="text-sm text-muted-foreground">
-                                    Create AI-powered tools that automate tasks and enhance decision-making.
+                                    Automate repetitive tasks or enhance decision-making with AI-powered tools tailored to your needs.
                                 </p>
                             </div>
                         </div>
@@ -59,7 +59,7 @@ export default function Home() {
                             <div className="space-y-2">
                                 <h3 className="font-bold">Turn Ideas Into Working Demos</h3>
                                 <p className="text-sm text-muted-foreground">
-                                    Rapidly prototype your ideas into functional demos and MVPs.
+                                    Have a big idea? Let's quickly prototype and prove it. From feasibility to functional MVP.
                                 </p>
                             </div>
                         </div>
@@ -68,14 +68,21 @@ export default function Home() {
 
                 <div className="mx-auto text-center md:max-w-[58rem]">
                     <p className="leading-normal text-muted-foreground sm:text-lg sm:leading-7">
-                        Want to see more examples? Check out my{" "}
+                        Explore the{" "}
                         <Link
                             href="/playground"
                             className="underline underline-offset-4"
                         >
-                            interactive demos
+                            Playground
                         </Link>
-                        .
+                        {" "}to see a few interactive demos or{" "}
+                        <Link
+                            href="/contact"
+                            className="underline underline-offset-4"
+                        >
+                            book a free call
+                        </Link>
+                        {" "}to discuss your project.
                     </p>
                 </div>
             </section>
