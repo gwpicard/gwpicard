@@ -10,10 +10,10 @@ export default function Home() {
                         I help teams turn data-driven ideas into working tools. Fast.
                     </h1>
                     <p className="max-w-[42rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8">
-                        Whether you're exploring AI opportunities, want clearer data insights, or need a quick MVP, I've got you covered.
+                        From strategy and insights to fully functional prototypes, I'll help you unlock the power of your data every step of the way.
                     </p>
                     <div className="space-x-4">
-                        <Link href="/how-i-can-help">
+                        <Link href="/playground">
                             <Button size="lg">See what I can build</Button>
                         </Link>
                         <Link href="/contact">
@@ -28,62 +28,62 @@ export default function Home() {
                     <h2 className="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl">
                         How I Can Help
                     </h2>
-                    <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
-                        From data analysis to full-stack applications, I can help you build the tools you need.
-                    </p>
                 </div>
 
                 <div className="mx-auto grid justify-center gap-4 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-3">
                     <div className="relative overflow-hidden rounded-lg border bg-background p-2">
                         <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
                             <div className="space-y-2">
+                                <h3 className="font-bold">Explore & Prioritize</h3>
+                                <p className="text-sm text-muted-foreground">
+                                    Identify high-impact data or AI opportunities before investing time and resources. We'll assess feasibility, risks, and map out next steps.
+                                </p>
+                            </div>
+                            <Link href="/how-i-can-help" className="w-full">
+                                <Button variant="outline" className="w-full">Learn More</Button>
+                            </Link>
+                        </div>
+                    </div>
+                    <div className="relative overflow-hidden rounded-lg border bg-background p-2">
+                        <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
+                            <div className="space-y-2">
                                 <h3 className="font-bold">Make Sense of Your Data</h3>
                                 <p className="text-sm text-muted-foreground">
-                                    Transform raw data into actionable insights. I'll organize, visualize, and uncover the patterns that drive decisions.
+                                    Transform raw data into clear, actionable insights. I'll organize, visualize, and uncover patterns that drive real decisions.
                                 </p>
                             </div>
+                            <Link href="/how-i-can-help" className="w-full">
+                                <Button variant="outline" className="w-full">Learn More</Button>
+                            </Link>
                         </div>
                     </div>
                     <div className="relative overflow-hidden rounded-lg border bg-background p-2">
                         <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
                             <div className="space-y-2">
-                                <h3 className="font-bold">Build Smart Tools</h3>
+                                <h3 className="font-bold">Build Smart Tools & MVPs</h3>
                                 <p className="text-sm text-muted-foreground">
-                                    Automate repetitive tasks or enhance decision-making with AI-powered tools tailored to your needs.
+                                    Create a working prototype or AI tool, complete with real or sample data. Perfect for pitching, testing, or saving time on key tasks.
                                 </p>
                             </div>
-                        </div>
-                    </div>
-                    <div className="relative overflow-hidden rounded-lg border bg-background p-2">
-                        <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
-                            <div className="space-y-2">
-                                <h3 className="font-bold">Turn Ideas Into Working Demos</h3>
-                                <p className="text-sm text-muted-foreground">
-                                    Have a big idea? Let's quickly prototype and prove it. From feasibility to functional MVP.
-                                </p>
-                            </div>
+                            <Link href="/how-i-can-help" className="w-full">
+                                <Button variant="outline" className="w-full">Learn More</Button>
+                            </Link>
                         </div>
                     </div>
                 </div>
 
-                <div className="mx-auto text-center md:max-w-[58rem]">
-                    <p className="leading-normal text-muted-foreground sm:text-lg sm:leading-7">
-                        Explore the{" "}
-                        <Link
-                            href="/playground"
-                            className="underline underline-offset-4"
-                        >
-                            Playground
-                        </Link>
-                        {" "}to see a few interactive demos or{" "}
-                        <Link
-                            href="/contact"
-                            className="underline underline-offset-4"
-                        >
-                            book a free call
-                        </Link>
-                        {" "}to discuss your project.
+                <div className="mx-auto text-center">
+                    <p className="mb-6 text-muted-foreground">
+                        Ready to get started? Book a free intro call or explore my interactive demos in the Playground.
                     </p>
+                    <div className="space-x-4">
+                        <Link href="/contact">
+                            <Button size="lg">Book a free intro call</Button>
+                        </Link>
+                        <Link href="/playground">
+                            <Button variant="outline" size="lg">View demos</Button>
+                        </Link>
+                    </div>
                 </div>
             </section>
         </div>
