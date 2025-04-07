@@ -34,7 +34,7 @@ export default function Home() {
                     <div className="relative overflow-hidden rounded-lg border bg-background p-2">
                         <div className="flex h-[240px] flex-col justify-between rounded-md p-6">
                             <div className="space-y-4">
-                                <h3 className="text-xl font-bold">Explore & Prioritize</h3>
+                                <h3 className="text-xl font-bold">Discover What's Possible</h3>
                                 <p className="text-sm leading-relaxed text-muted-foreground">
                                     Identify high-impact data or AI opportunities before investing time and resources. We'll assess feasibility, risks, and map out next steps.
                                 </p>

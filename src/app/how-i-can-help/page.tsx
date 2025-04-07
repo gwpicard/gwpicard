@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button"
 
 const offers = [
     {
-        title: "Explore & Prioritize",
+        title: "Discover What's Possible",
         duration: "1–2 weeks",
         description: "A focused engagement to define high-impact data or AI opportunities for your business. Whether you have a specific problem in mind or you're unsure where to start, I'll pinpoint feasible use cases and create a short roadmap.",
         deliverables: [
@@ -34,7 +34,7 @@ const offers = [
         ],
     },
     {
-        title: "Build Smart Tools & MVP",
+        title: "Build Smart Tools & MVPs",
         duration: "4–6 weeks",
         description: "I build a working solution—ranging from a small AI tool that automates a manual process to a full MVP you can pitch, demo, or launch. Perfect for showing investors, validating your product idea, or saving time on critical tasks.",
         deliverables: [
@@ -71,7 +71,7 @@ export default function HowICanHelp() {
                         Services: Flexible, Outcome-Focused, and Fast
                     </h1>
                     <p className="text-xl text-muted-foreground">
-                        I work with startups and SMEs to unlock the value of their data. My approach is simple: we pick the outcome you need—whether that's clarity, insights, or a functional product—and make it happen efficiently.
+                        I help lean companies unlock the value of their data. Whether you're looking clarity, insights, or a fully-fledge MVP, I can make it happen.
                     </p>
                 </div>
 
