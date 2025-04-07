@@ -7,10 +7,10 @@ export default function Home() {
             <section className="flex min-h-[100vh] w-full items-center justify-center">
                 <div className="container flex max-w-[64rem] flex-col items-center gap-8 text-center">
                     <h1 className="font-heading text-3xl sm:text-5xl md:text-6xl lg:text-7xl">
-                        I help teams turn data-driven ideas into real solutions.
+                        I work with teams to turn data-driven ideas into real solutions.
                     </h1>
                     <p className="max-w-[42rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8">
-                        From strategy and insights to fully functional prototypes, I'll help you unlock the power of your data every step of the way.
+                        Whether you're exploring AI or already have a project in mind, I can help.
                     </p>
                     <div className="space-x-4">
                         <Link href="/playground">
