@@ -1,11 +1,13 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
+import { ParticlesBackground } from "@/components/particles-background"
 
 export default function Home() {
     return (
         <div className="flex flex-col items-center justify-center">
-            <section className="flex min-h-[100vh] w-full items-center justify-center">
-                <div className="container flex max-w-[64rem] flex-col items-center gap-8 text-center">
+            <section className="relative flex min-h-[100vh] w-full items-center justify-center overflow-hidden">
+                <ParticlesBackground />
+                <div className="container relative flex max-w-[64rem] flex-col items-center gap-8 text-center">
                     <h1 className="font-heading text-3xl sm:text-5xl md:text-6xl lg:text-7xl">
                         I work with teams to turn data-driven ideas into real solutions.
                     </h1>
@@ -84,7 +86,7 @@ export default function Home() {
                     </p>
                     <div className="space-x-4">
                         <Link href="/contact">
-                            <Button size="lg">Schedule a chat</Button>
+                            <Button size="lg">Let's chat</Button>
                         </Link>
                     </div>
                 </div>
