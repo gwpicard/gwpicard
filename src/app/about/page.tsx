@@ -16,11 +16,11 @@ export default function About() {
 
                 <div className="flex justify-center space-x-4">
                     <Link href="/contact">
-                        <Button size="lg">Get in touch</Button>
+                        <Button size="lg">Send me a message</Button>
                     </Link>
-                    <Link href="/playground">
+                    {/* <Link href="/playground">
                         <Button variant="outline" size="lg">View my work</Button>
-                    </Link>
+                    </Link> */}
                 </div>
             </div>
         </div>

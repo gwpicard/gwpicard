@@ -40,7 +40,7 @@ export default function Home() {
                                 </p>
                             </div>
                             <div className="pt-6">
-                                <Link href="/how-i-can-help" className="w-full">
+                                <Link href="/how-i-can-help#discover" className="w-full">
                                     <Button variant="outline" className="w-full">Learn More</Button>
                                 </Link>
                             </div>
@@ -55,7 +55,7 @@ export default function Home() {
                                 </p>
                             </div>
                             <div className="pt-6">
-                                <Link href="/how-i-can-help" className="w-full">
+                                <Link href="/how-i-can-help#analyze" className="w-full">
                                     <Button variant="outline" className="w-full">Learn More</Button>
                                 </Link>
                             </div>
@@ -70,7 +70,7 @@ export default function Home() {
                                 </p>
                             </div>
                             <div className="pt-6">
-                                <Link href="/how-i-can-help" className="w-full">
+                                <Link href="/how-i-can-help#build" className="w-full">
                                     <Button variant="outline" className="w-full">Learn More</Button>
                                 </Link>
                             </div>

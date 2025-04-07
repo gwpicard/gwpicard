@@ -79,7 +79,10 @@ export default function HowICanHelp() {
                     {offers.map((offer) => (
                         <div
                             key={offer.title}
-                            className="rounded-lg border bg-card p-8 shadow-sm"
+                            id={offer.title === "Discover What's Possible" ? "discover" :
+                                offer.title === "Make Sense of Your Data" ? "analyze" :
+                                    offer.title === "Build Smart Tools & MVPs" ? "build" : undefined}
+                            className="rounded-lg border bg-card p-8 shadow-sm scroll-mt-20"
                         >
                             <div className="space-y-4">
                                 <div>
