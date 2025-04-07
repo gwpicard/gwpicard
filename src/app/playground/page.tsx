@@ -44,27 +44,25 @@ export default function Playground() {
 
                 <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
                     {demos.map((demo) => (
-                        <Card key={demo.title}>
+                        <Card key={demo.title} className="flex flex-col">
                             <CardHeader>
                                 <CardTitle>{demo.title}</CardTitle>
                                 <CardDescription>{demo.description}</CardDescription>
                             </CardHeader>
-                            <CardContent>
-                                <div className="space-y-4">
-                                    <div className="flex flex-wrap gap-2">
-                                        {demo.tags.map((tag) => (
-                                            <span
-                                                key={tag}
-                                                className="rounded-full bg-secondary px-2 py-1 text-xs text-secondary-foreground"
-                                            >
-                                                {tag}
-                                            </span>
-                                        ))}
-                                    </div>
-                                    <Link href={demo.href}>
-                                        <Button className="w-full">Try it out</Button>
-                                    </Link>
+                            <CardContent className="flex flex-col flex-1 justify-between space-y-6">
+                                <div className="flex flex-wrap gap-2">
+                                    {demo.tags.map((tag) => (
+                                        <span
+                                            key={tag}
+                                            className="rounded-full bg-secondary px-2 py-1 text-xs text-secondary-foreground"
+                                        >
+                                            {tag}
+                                        </span>
+                                    ))}
                                 </div>
+                                <Link href={demo.href} className="w-full">
+                                    <Button className="w-full">Try it out</Button>
+                                </Link>
                             </CardContent>
                         </Card>
                     ))}

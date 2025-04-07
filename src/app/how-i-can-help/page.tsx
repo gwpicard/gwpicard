@@ -68,10 +68,10 @@ export default function HowICanHelp() {
             <div className="mx-auto max-w-[58rem] space-y-12">
                 <div className="space-y-6">
                     <h1 className="font-heading text-3xl sm:text-5xl md:text-6xl lg:text-7xl">
-                        Services: Flexible, Outcome-Focused, and Fast
+                        Services
                     </h1>
                     <p className="text-xl text-muted-foreground">
-                        I help lean companies unlock the value of their data. Whether you're looking clarity, insights, or a fully-fledge MVP, I can make it happen.
+                        Whether you're looking clarity, insights, or a fully-fledged MVP, I can make it happen.
                     </p>
                 </div>
 
@@ -130,10 +130,10 @@ export default function HowICanHelp() {
 
                 <div className="mx-auto text-center">
                     <p className="mb-4 text-muted-foreground">
-                        Ready to discuss your project?
+                        Ready to chat?
                     </p>
                     <Link href="/contact">
-                        <Button size="lg">Book a free intro call</Button>
+                        <Button size="lg">Book an intro call</Button>
                     </Link>
                 </div>
             </div>

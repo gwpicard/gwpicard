@@ -10,14 +10,14 @@ export default function Home() {
                         I work with teams to turn data-driven ideas into real solutions.
                     </h1>
                     <p className="max-w-[42rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8">
-                        Whether you're exploring AI or already have a project in mind, I can help.
+                        Whether you're exploring what AI can do or have a project in mind, I can help.
                     </p>
                     <div className="space-x-4">
-                        <Link href="/playground">
-                            <Button size="lg">See what I can build</Button>
+                        <Link href="/how-i-can-help">
+                            <Button size="lg">How I can help</Button>
                         </Link>
-                        <Link href="/contact">
-                            <Button variant="outline" size="lg">Book a free intro call</Button>
+                        <Link href="/playground">
+                            <Button variant="outline" size="lg">What I can build</Button>
                         </Link>
                     </div>
                 </div>
@@ -80,14 +80,11 @@ export default function Home() {
 
                 <div className="mx-auto text-center">
                     <p className="mb-6 text-muted-foreground">
-                        Ready to get started? Book a free intro call or explore my interactive demos in the Playground.
+                        Let's chat!
                     </p>
                     <div className="space-x-4">
                         <Link href="/contact">
-                            <Button size="lg">Book a free intro call</Button>
-                        </Link>
-                        <Link href="/playground">
-                            <Button variant="outline" size="lg">View demos</Button>
+                            <Button size="lg">Book an intro call</Button>
                         </Link>
                     </div>
                 </div>
