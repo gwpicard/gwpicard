@@ -28,9 +28,6 @@ export default function Contact() {
                 <Card>
                     <CardHeader className="space-y-1 pb-3">
                         <CardTitle>Send a Message</CardTitle>
-                        <CardDescription>
-                            Fill out the form below and I'll get back to you within 24 hours.
-                        </CardDescription>
                     </CardHeader>
                     <CardContent>
                         <form className="space-y-3">
