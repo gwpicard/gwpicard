@@ -71,7 +71,7 @@ export default function HowICanHelp() {
                         Services
                     </h1>
                     <p className="text-xl text-muted-foreground">
-                        Whether you're looking clarity, insights, or a fully-fledged MVP, I can make it happen.
+                        Whether you're looking for clarity, insights, or a fully-fledged MVP, I can make it happen.
                     </p>
                 </div>
 
