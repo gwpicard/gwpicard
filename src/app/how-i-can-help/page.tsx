@@ -9,6 +9,7 @@ import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui"
 const offers = [
     {
         title: "Discover What's Possible",
+        shortTitle: "Discover",
         id: "discover",
         duration: "Timeline: 1-2 weeks",
         description: "A focused exploration into how AI/data could be applied to your business. Whether you have a specific problem in mind or you're unsure where to start, I'll identify feasible use cases and outline a clear plan.",
@@ -25,12 +26,13 @@ const offers = [
     },
     {
         title: "Make Sense of Your Data",
+        shortTitle: "Analyze",
         id: "analyze",
         duration: "Timeline: 2-4 weeks",
         description: "A hands-on deep dive into your data. I'll clean and organise your datasets, analyze trends, and build interactive dashboards or reports so you can make smarter, data-driven decisions.",
         deliverables: [
             "Thorough data cleaning and organization",
-            "nIteractive dashboards or visual reports",
+            "Interactive dashboards or visual reports",
             "A concise report with actionable recommendations",
         ],
         idealFor: [
@@ -41,6 +43,7 @@ const offers = [
     },
     {
         title: "Build Smart Tools & MVPs",
+        shortTitle: "Build",
         id: "build",
         duration: "Timeline: 4-8 weeks",
         description: "I build prototypes—from automating time-consuming tasks to delivering MVPs you can pitch, demo, or launch. I'll turn your concept into a solution that convinces investors, validates product ideas, or saves your team hours on manual tasks.",
@@ -97,13 +100,13 @@ export default function HowICanHelp() {
     }, [])
 
     return (
-        <div className="container py-10">
-            <div className="mx-auto max-w-[58rem] space-y-12">
-                <div className="space-y-6">
+        <div className="container py-6 md:py-10">
+            <div className="mx-auto max-w-[58rem] space-y-8 md:space-y-12">
+                <div className="space-y-4 md:space-y-6">
                     <h1 className="font-heading text-3xl sm:text-5xl md:text-6xl lg:text-7xl">
                         Solutions
                     </h1>
-                    <p className="text-xl text-muted-foreground">
+                    <p className="text-lg md:text-xl text-muted-foreground">
                         Whether you're looking for clarity, insights, or a fully-fledged MVP, I can make it happen.
                     </p>
                 </div>
@@ -114,50 +117,51 @@ export default function HowICanHelp() {
                             <TabsTrigger
                                 key={offer.id}
                                 value={offer.id}
-                                className="data-[state=active]:border-b-2 data-[state=active]:border-[hsl(210,100%,50%)] dark:data-[state=active]:border-[hsl(210,100%,60%)]"
+                                className="data-[state=active]:border-b-2 data-[state=active]:border-[hsl(210,100%,50%)] dark:data-[state=active]:border-[hsl(210,100%,60%)] px-1 sm:px-3"
                             >
-                                {offer.title}
+                                <span className="hidden sm:inline">{offer.title}</span>
+                                <span className="sm:hidden">{offer.shortTitle}</span>
                             </TabsTrigger>
                         ))}
                     </TabsList>
                     {offers.map((offer) => (
                         <TabsContent key={offer.id} value={offer.id}>
-                            <div className="rounded-lg border bg-card p-8 shadow-sm">
+                            <div className="rounded-lg border bg-card p-4 md:p-8 shadow-sm">
                                 <div className="space-y-4">
                                     <div>
-                                        <h2 className="font-heading text-2xl">{offer.title}</h2>
-                                        <p className="text-sm text-muted-foreground">{offer.duration}</p>
+                                        <h2 className="font-heading text-xl md:text-2xl">{offer.title}</h2>
+                                        <p className="text-xs md:text-sm text-muted-foreground">{offer.duration}</p>
                                     </div>
                                     <div>
                                         <h3 className="font-medium">What It Is</h3>
-                                        <p className="mt-2 text-muted-foreground">{offer.description}</p>
+                                        <p className="mt-2 text-sm text-muted-foreground">{offer.description}</p>
                                     </div>
                                     <div>
                                         <h3 className="font-medium">What You Get</h3>
-                                        <ul className="mt-2 space-y-2 text-muted-foreground">
+                                        <ul className="mt-2 space-y-1 md:space-y-2 text-muted-foreground">
                                             {offer.deliverables.map((item) => (
-                                                <li key={item}>• {item}</li>
+                                                <li key={item} className="text-sm">• {item}</li>
                                             ))}
                                         </ul>
                                     </div>
                                     <div>
                                         <h3 className="font-medium">Ideal For</h3>
-                                        <ul className="mt-2 space-y-2 text-muted-foreground">
+                                        <ul className="mt-2 space-y-1 md:space-y-2 text-muted-foreground">
                                             {offer.idealFor.map((item) => (
-                                                <li key={item}>• {item}</li>
+                                                <li key={item} className="text-sm">• {item}</li>
                                             ))}
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                             {offer.id === "build" && (
-                                <div className="mt-8 space-y-6">
-                                    <h2 className="font-heading text-2xl">Optional Add-Ons</h2>
+                                <div className="mt-6 md:mt-8 space-y-4 md:space-y-6">
+                                    <h2 className="font-heading text-xl md:text-2xl">Optional Add-Ons</h2>
                                     <div className="grid gap-4 md:grid-cols-2">
                                         {addOns.map((addon) => (
                                             <div
                                                 key={addon.title}
-                                                className="rounded-lg border bg-card p-6"
+                                                className="rounded-lg border bg-card p-4 md:p-6"
                                             >
                                                 <h3 className="font-medium">{addon.title}</h3>
                                                 <p className="mt-2 text-sm text-muted-foreground">

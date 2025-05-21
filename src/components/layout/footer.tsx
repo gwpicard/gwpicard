@@ -4,24 +4,24 @@ import { Button } from "@/components/ui/button"
 
 export function Footer() {
     return (
-        <footer className="border-t">
-            <div className="container flex h-14 items-center justify-between">
-                <div className="flex items-center gap-2">
-                    <p className="text-sm text-muted-foreground">
+        <footer className="border-t py-4">
+            <div className="container flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:h-14 sm:items-center sm:justify-between">
+                <div className="flex items-center justify-center sm:justify-start">
+                    <p className="text-xs sm:text-sm text-muted-foreground">
                         © 2025 Guillaume Picard. All rights reserved.
                     </p>
                 </div>
-                <div className="flex items-center gap-4">
-                    <Link href="/contact">
-                        <Button variant="ghost" size="sm">Contact me</Button>
+                <div className="flex flex-col sm:flex-row items-center space-y-3 sm:space-y-0 sm:gap-4">
+                    <Link href="/contact" className="w-full sm:w-auto">
+                        <Button variant="ghost" size="sm" className="w-full sm:w-auto">Contact me</Button>
                     </Link>
-                    <div className="flex items-center space-x-1">
+                    <div className="flex items-center justify-center space-x-3">
                         <Link
                             href="https://github.com/gwpicard"
                             target="_blank"
                             rel="noreferrer"
                         >
-                            <div className="inline-flex h-9 w-9 items-center justify-center rounded-md bg-background px-3 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground">
+                            <div className="inline-flex h-8 w-8 sm:h-9 sm:w-9 items-center justify-center rounded-md bg-background px-2 sm:px-3 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground">
                                 <svg viewBox="0 0 438.549 438.549" className="h-4 w-4">
                                     <path
                                         fill="currentColor"
@@ -35,7 +35,7 @@ export function Footer() {
                             target="_blank"
                             rel="noreferrer"
                         >
-                            <div className="inline-flex h-9 w-9 items-center justify-center rounded-md bg-background px-3 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground">
+                            <div className="inline-flex h-8 w-8 sm:h-9 sm:w-9 items-center justify-center rounded-md bg-background px-2 sm:px-3 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground">
                                 <svg
                                     className="h-4 w-4 fill-current"
                                     role="img"
