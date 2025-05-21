@@ -47,7 +47,7 @@ export default function Home() {
                             <div className="space-y-4">
                                 <h3 className="text-xl font-bold">Discover What's Possible</h3>
                                 <p className="text-sm leading-relaxed text-muted-foreground">
-                                    Identify high-impact data or AI opportunities before investing time and resources. We'll assess feasibility, risks, and map out next steps.
+                                    Uncover high-impact AI and data opportunities early. I'll assess feasibility, and help map out next steps.
                                 </p>
                             </div>
                             <div className="pt-6">
@@ -62,7 +62,7 @@ export default function Home() {
                             <div className="space-y-4">
                                 <h3 className="text-xl font-bold">Make Sense of Your Data</h3>
                                 <p className="text-sm leading-relaxed text-muted-foreground">
-                                    Transform raw data into clear, actionable insights. I'll organize, visualize, and uncover patterns that drive real decisions.
+                                    Make sense of your data. I'll generate actionable insights to help you make smarter, data-driven decisions.
                                 </p>
                             </div>
                             <div className="pt-6">
@@ -77,7 +77,7 @@ export default function Home() {
                             <div className="space-y-4">
                                 <h3 className="text-xl font-bold">Build Smart Tools & MVPs</h3>
                                 <p className="text-sm leading-relaxed text-muted-foreground">
-                                    Create a working prototype or AI tool, complete with real or sample data. Perfect for pitching, testing, or saving time on key tasks.
+                                    Turn your idea into a working prototype. I'll build a demo-ready AI tool to help you pitch, validate, or automate faster.
                                 </p>
                             </div>
                             <div className="pt-6">
