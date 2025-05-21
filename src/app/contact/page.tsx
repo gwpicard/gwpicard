@@ -138,7 +138,7 @@ export default function Contact() {
                         Get in Touch
                     </h1>
                     <p className="text-base md:text-xl text-muted-foreground">
-                        Have a project in mind? Let's chat.
+                        Have an idea or project in mind? Let's chat.
                     </p>
                 </div>
 
@@ -149,7 +149,7 @@ export default function Contact() {
                                 <Label htmlFor="name">Name</Label>
                                 <Input
                                     id="name"
-                                    placeholder="Your name"
+                                    placeholder="Name"
                                     value={formData.name}
                                     onChange={handleChange}
                                     onBlur={handleBlur}
@@ -178,7 +178,7 @@ export default function Contact() {
                                 <Label htmlFor="message">Message</Label>
                                 <Textarea
                                     id="message"
-                                    placeholder="Tell me about your project..."
+                                    placeholder="What's on your mind?"
                                     className={`min-h-[120px] ${touched.message && errors.message ? "border-red-500" : ""}`}
                                     value={formData.message}
                                     onChange={handleChange}
