@@ -12,8 +12,8 @@ export function Footer() {
                     </p>
                 </div>
                 <div className="flex flex-col sm:flex-row items-center space-y-3 sm:space-y-0 sm:gap-4">
-                    <Link href="/contact" className="w-full sm:w-auto">
-                        <Button variant="ghost" size="sm" className="w-full sm:w-auto">Contact me</Button>
+                    <Link href="/contact" className="text-sm text-foreground hover:underline transition-colors">
+                        Contact me
                     </Link>
                     <div className="flex items-center justify-center space-x-3">
                         <Link
