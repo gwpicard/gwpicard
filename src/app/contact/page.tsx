@@ -137,7 +137,7 @@ export default function Contact() {
                     <h1 className="font-heading text-3xl sm:text-5xl md:text-6xl lg:text-7xl">
                         Get in Touch
                     </h1>
-                    <p className="text-xl text-muted-foreground">
+                    <p className="text-base md:text-xl text-muted-foreground">
                         Have a project in mind? I'd love to hear about it.
                     </p>
                 </div>
