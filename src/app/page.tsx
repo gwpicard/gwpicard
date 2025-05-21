@@ -34,69 +34,71 @@ export default function Home() {
                 </div>
             </section>
 
-            <section id="solutions-section" className="container py-8 md:py-12 lg:py-24">
-                <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center mb-16">
-                    <h2 className="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl">
-                        How I Can Help
-                    </h2>
-                </div>
+            <section id="solutions-section" className="relative flex min-h-[calc(100vh-12rem)] items-center justify-center w-full py-8 md:py-12 lg:py-16">
+                <div className="container">
+                    <div className="mx-auto flex max-w-[64rem] flex-col items-center space-y-4 text-center mb-16">
+                        <h2 className="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl">
+                            How I Can Help
+                        </h2>
+                    </div>
 
-                <div className="mx-auto grid justify-center gap-6 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-3 mb-12">
-                    <div className="relative overflow-hidden rounded-lg border-2 border-[hsl(210,100%,90%)] dark:border-[hsl(210,100%,30%)] bg-background p-2">
-                        <div className="flex h-[240px] flex-col justify-between rounded-md p-6">
-                            <div className="space-y-4">
-                                <h3 className="text-xl font-bold">Discover What's Possible</h3>
-                                <p className="text-sm leading-relaxed text-muted-foreground">
-                                    Uncover high-impact AI and data opportunities early. I'll assess feasibility, and help map out next steps.
-                                </p>
+                    <div className="mx-auto grid justify-center gap-8 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-3 mb-16">
+                        <div className="relative overflow-hidden rounded-lg border-2 border-[hsl(210,100%,90%)] dark:border-[hsl(210,100%,30%)] bg-background p-2">
+                            <div className="flex h-[240px] flex-col justify-between rounded-md p-6">
+                                <div className="space-y-4">
+                                    <h3 className="text-xl font-bold">Discover What's Possible</h3>
+                                    <p className="text-sm leading-relaxed text-muted-foreground">
+                                        Uncover high-impact AI and data opportunities early. I'll assess feasibility, and help map out next steps.
+                                    </p>
+                                </div>
+                                <div className="pt-6">
+                                    <Link href="/how-i-can-help#discover" className="w-full">
+                                        <Button variant="outline" className="w-full">Learn More</Button>
+                                    </Link>
+                                </div>
                             </div>
-                            <div className="pt-6">
-                                <Link href="/how-i-can-help#discover" className="w-full">
-                                    <Button variant="outline" className="w-full">Learn More</Button>
-                                </Link>
+                        </div>
+                        <div className="relative overflow-hidden rounded-lg border-2 border-[hsl(210,100%,90%)] dark:border-[hsl(210,100%,30%)] bg-background p-2">
+                            <div className="flex h-[240px] flex-col justify-between rounded-md p-6">
+                                <div className="space-y-4">
+                                    <h3 className="text-xl font-bold">Make Sense of Your Data</h3>
+                                    <p className="text-sm leading-relaxed text-muted-foreground">
+                                        Discover opportunities in your data. I'll generate actionable insights to help you make smarter decisions.
+                                    </p>
+                                </div>
+                                <div className="pt-6">
+                                    <Link href="/how-i-can-help#analyze" className="w-full">
+                                        <Button variant="outline" className="w-full">Learn More</Button>
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="relative overflow-hidden rounded-lg border-2 border-[hsl(210,100%,90%)] dark:border-[hsl(210,100%,30%)] bg-background p-2">
+                            <div className="flex h-[240px] flex-col justify-between rounded-md p-6">
+                                <div className="space-y-4">
+                                    <h3 className="text-xl font-bold">Build Smart Tools & MVPs</h3>
+                                    <p className="text-sm leading-relaxed text-muted-foreground">
+                                        Turn your idea into a working prototype. I'll build a demo-ready AI tool to help you pitch, validate, or automate faster.
+                                    </p>
+                                </div>
+                                <div className="pt-6">
+                                    <Link href="/how-i-can-help#build" className="w-full">
+                                        <Button variant="outline" className="w-full">Learn More</Button>
+                                    </Link>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div className="relative overflow-hidden rounded-lg border-2 border-[hsl(210,100%,90%)] dark:border-[hsl(210,100%,30%)] bg-background p-2">
-                        <div className="flex h-[240px] flex-col justify-between rounded-md p-6">
-                            <div className="space-y-4">
-                                <h3 className="text-xl font-bold">Make Sense of Your Data</h3>
-                                <p className="text-sm leading-relaxed text-muted-foreground">
-                                    Discover opportunities in your data. I'll generate actionable insights to help you make smarter decisions.
-                                </p>
-                            </div>
-                            <div className="pt-6">
-                                <Link href="/how-i-can-help#analyze" className="w-full">
-                                    <Button variant="outline" className="w-full">Learn More</Button>
-                                </Link>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="relative overflow-hidden rounded-lg border-2 border-[hsl(210,100%,90%)] dark:border-[hsl(210,100%,30%)] bg-background p-2">
-                        <div className="flex h-[240px] flex-col justify-between rounded-md p-6">
-                            <div className="space-y-4">
-                                <h3 className="text-xl font-bold">Build Smart Tools & MVPs</h3>
-                                <p className="text-sm leading-relaxed text-muted-foreground">
-                                    Turn your idea into a working prototype. I'll build a demo-ready AI tool to help you pitch, validate, or automate faster.
-                                </p>
-                            </div>
-                            <div className="pt-6">
-                                <Link href="/how-i-can-help#build" className="w-full">
-                                    <Button variant="outline" className="w-full">Learn More</Button>
-                                </Link>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-                <div className="mx-auto text-center">
-                    <p className="mb-6 text-muted-foreground">
-                        Interested in working together?
-                    </p>
-                    <div className="space-x-4">
-                        <Link href="/contact">
-                            <Button size="lg">Let's chat</Button>
-                        </Link>
+                    <div className="mx-auto max-w-[64rem] text-center">
+                        <p className="mb-8 text-xl text-muted-foreground">
+                            Interested in working together?
+                        </p>
+                        <div className="space-x-4">
+                            <Link href="/contact">
+                                <Button size="lg">Let's chat</Button>
+                            </Link>
+                        </div>
                     </div>
                 </div>
             </section>
