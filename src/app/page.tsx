@@ -7,9 +7,9 @@ import { ParticlesBackground } from "@/components/particles-background"
 export default function Home() {
     return (
         <div className="flex flex-col items-center justify-center">
-            <section className="relative flex min-h-[100vh] w-full items-center justify-center overflow-hidden bg-gradient-to-b from-background to-background/70">
+            <section className="relative flex min-h-[90vh] sm:min-h-[100vh] w-full items-center justify-center overflow-hidden bg-gradient-to-b from-background to-background/70 py-6 landscape:py-4 sm:py-0">
                 <ParticlesBackground />
-                <div className="container relative flex max-w-[64rem] flex-col items-center gap-8 text-center">
+                <div className="container relative flex max-w-[64rem] flex-col items-center gap-6 landscape:gap-4 sm:gap-8 text-center">
                     <h1 className="font-heading text-3xl sm:text-5xl md:text-6xl lg:text-7xl">
                         I bring ideas to life <br></br>with data and AI
                     </h1>
@@ -52,48 +52,48 @@ export default function Home() {
                         </h2>
                     </div>
 
-                    <div className="mx-auto grid justify-center gap-8 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-3 mb-16">
+                    <div className="mx-auto grid justify-center gap-4 md:gap-8 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-3 mb-16">
                         <div className="relative overflow-hidden rounded-lg border-2 border-[hsl(210,100%,90%)] dark:border-[hsl(210,100%,30%)] bg-background p-2">
-                            <div className="flex h-[240px] flex-col justify-between rounded-md p-6">
-                                <div className="space-y-4">
-                                    <h3 className="text-xl font-bold">Discover What's Possible</h3>
+                            <div className="flex flex-col justify-between rounded-md p-4 sm:p-6 h-auto sm:h-[240px]">
+                                <div>
+                                    <h3 className="text-lg sm:text-xl font-bold mb-2">Discover What's Possible</h3>
                                     <p className="text-sm leading-relaxed text-muted-foreground">
                                         Uncover high-impact AI and data opportunities early. I'll assess feasibility, and help map out next steps.
                                     </p>
                                 </div>
-                                <div className="pt-6">
-                                    <Link href="/how-i-can-help#discover" className="w-full">
-                                        <Button variant="outline" className="w-full">Learn More</Button>
+                                <div className="mt-4 sm:mt-auto w-full">
+                                    <Link href="/how-i-can-help#discover" className="block w-full">
+                                        <Button variant="outline" className="w-full h-9">Learn More</Button>
                                     </Link>
                                 </div>
                             </div>
                         </div>
                         <div className="relative overflow-hidden rounded-lg border-2 border-[hsl(210,100%,90%)] dark:border-[hsl(210,100%,30%)] bg-background p-2">
-                            <div className="flex h-[240px] flex-col justify-between rounded-md p-6">
-                                <div className="space-y-4">
-                                    <h3 className="text-xl font-bold">Make Sense of Your Data</h3>
+                            <div className="flex flex-col justify-between rounded-md p-4 sm:p-6 h-auto sm:h-[240px]">
+                                <div>
+                                    <h3 className="text-lg sm:text-xl font-bold mb-2">Make Sense of Your Data</h3>
                                     <p className="text-sm leading-relaxed text-muted-foreground">
                                         Discover opportunities in your data. I'll generate actionable insights to help you make smarter decisions.
                                     </p>
                                 </div>
-                                <div className="pt-6">
-                                    <Link href="/how-i-can-help#analyze" className="w-full">
-                                        <Button variant="outline" className="w-full">Learn More</Button>
+                                <div className="mt-4 sm:mt-auto w-full">
+                                    <Link href="/how-i-can-help#analyze" className="block w-full">
+                                        <Button variant="outline" className="w-full h-9">Learn More</Button>
                                     </Link>
                                 </div>
                             </div>
                         </div>
                         <div className="relative overflow-hidden rounded-lg border-2 border-[hsl(210,100%,90%)] dark:border-[hsl(210,100%,30%)] bg-background p-2">
-                            <div className="flex h-[240px] flex-col justify-between rounded-md p-6">
-                                <div className="space-y-4">
-                                    <h3 className="text-xl font-bold">Build Smart Tools & MVPs</h3>
+                            <div className="flex flex-col justify-between rounded-md p-4 sm:p-6 h-auto sm:h-[240px]">
+                                <div>
+                                    <h3 className="text-lg sm:text-xl font-bold mb-2">Build Smart Tools & MVPs</h3>
                                     <p className="text-sm leading-relaxed text-muted-foreground">
                                         Turn your idea into a working prototype. I'll build a demo-ready AI tool to help you pitch, validate, or automate faster.
                                     </p>
                                 </div>
-                                <div className="pt-6">
-                                    <Link href="/how-i-can-help#build" className="w-full">
-                                        <Button variant="outline" className="w-full">Learn More</Button>
+                                <div className="mt-4 sm:mt-auto w-full">
+                                    <Link href="/how-i-can-help#build" className="block w-full">
+                                        <Button variant="outline" className="w-full h-9">Learn More</Button>
                                     </Link>
                                 </div>
                             </div>
