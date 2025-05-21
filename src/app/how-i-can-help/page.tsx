@@ -1,6 +1,8 @@
 "use client"
 
 import Link from "next/link"
+import { useEffect, useState } from "react"
+import { useSearchParams } from "next/navigation"
 import { Button } from "@/components/ui/button"
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui"
 
@@ -69,6 +71,33 @@ const addOns = [
 ]
 
 export default function HowICanHelp() {
+    const [activeTab, setActiveTab] = useState("discover")
+
+    // Handle URL hash fragments for direct linking to tabs
+    useEffect(() => {
+        // Scroll to top first
+        window.scrollTo(0, 0)
+
+        // Function to handle hash changes
+        const handleHashChange = () => {
+            const hash = window.location.hash.replace('#', '')
+            if (hash && ["discover", "analyze", "build"].includes(hash)) {
+                setActiveTab(hash)
+            }
+        }
+
+        // Check initial hash
+        handleHashChange()
+
+        // Add event listener for hash changes
+        window.addEventListener('hashchange', handleHashChange)
+
+        // Cleanup
+        return () => {
+            window.removeEventListener('hashchange', handleHashChange)
+        }
+    }, [])
+
     return (
         <div className="container py-10">
             <div className="mx-auto max-w-[58rem] space-y-12">
@@ -81,7 +110,7 @@ export default function HowICanHelp() {
                     </p>
                 </div>
 
-                <Tabs defaultValue="discover" className="w-full">
+                <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
                     <TabsList className="grid w-full grid-cols-3">
                         {offers.map((offer) => (
                             <TabsTrigger
