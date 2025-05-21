@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import {
     Card,
@@ -19,8 +19,57 @@ export default function Contact() {
         email: "",
         message: ""
     });
+    const [errors, setErrors] = useState({
+        name: "",
+        email: "",
+        message: ""
+    });
+    const [touched, setTouched] = useState({
+        name: false,
+        email: false,
+        message: false
+    });
+    const [isValid, setIsValid] = useState(false);
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [submitStatus, setSubmitStatus] = useState<null | "success" | "error">(null);
+
+    // Validate form data
+    const validateForm = () => {
+        const newErrors = {
+            name: "",
+            email: "",
+            message: ""
+        };
+
+        // Name validation
+        if (formData.name.length <= 1) {
+            newErrors.name = "Please enter a valid name";
+        }
+
+        // Email validation with regex
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailRegex.test(formData.email)) {
+            newErrors.email = "Please enter a valid email address";
+        }
+
+        // Message validation
+        if (formData.message.length < 10) {
+            newErrors.message = "Message must be at least 10 characters";
+        }
+
+        setErrors(newErrors);
+
+        // Check if form is valid (no errors)
+        const valid = !newErrors.name && !newErrors.email && !newErrors.message;
+        setIsValid(valid);
+
+        return valid;
+    };
+
+    // Run validation when form data changes
+    useEffect(() => {
+        validateForm();
+    }, [formData]);
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
         const { id, value } = e.target;
@@ -30,22 +79,32 @@ export default function Contact() {
         }));
     };
 
+    const handleBlur = (e: React.FocusEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+        const { id } = e.target;
+        setTouched(prev => ({
+            ...prev,
+            [id]: true
+        }));
+    };
+
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
-        setIsSubmitting(true);
-        setSubmitStatus(null);
 
-        // Validate form
-        if (!formData.name || !formData.email || !formData.message) {
-            alert("Please fill in all fields");
-            setIsSubmitting(false);
+        // Final validation check before submission
+        if (!validateForm()) {
+            // Mark all fields as touched to show errors
+            setTouched({
+                name: true,
+                email: true,
+                message: true
+            });
             return;
         }
 
-        try {
-            // For testing - just log the data
-            console.log("Form submitted with data:", formData);
+        setIsSubmitting(true);
+        setSubmitStatus(null);
 
+        try {
             // Send data to our API
             const response = await fetch('/api/send-email', {
                 method: 'POST',
@@ -61,6 +120,8 @@ export default function Contact() {
             // Success!
             setSubmitStatus("success");
             setFormData({ name: "", email: "", message: "" });
+            // Reset touched state after successful submission
+            setTouched({ name: false, email: false, message: false });
         } catch (error) {
             console.error("Error submitting form:", error);
             setSubmitStatus("error");
@@ -91,7 +152,12 @@ export default function Contact() {
                                     placeholder="Your name"
                                     value={formData.name}
                                     onChange={handleChange}
+                                    onBlur={handleBlur}
+                                    className={touched.name && errors.name ? "border-red-500" : ""}
                                 />
+                                {touched.name && errors.name && (
+                                    <p className="text-red-500 text-sm mt-1">{errors.name}</p>
+                                )}
                             </div>
                             <div className="space-y-2">
                                 <Label htmlFor="email">Email</Label>
@@ -101,17 +167,26 @@ export default function Contact() {
                                     placeholder="your@email.com"
                                     value={formData.email}
                                     onChange={handleChange}
+                                    onBlur={handleBlur}
+                                    className={touched.email && errors.email ? "border-red-500" : ""}
                                 />
+                                {touched.email && errors.email && (
+                                    <p className="text-red-500 text-sm mt-1">{errors.email}</p>
+                                )}
                             </div>
                             <div className="space-y-2">
                                 <Label htmlFor="message">Message</Label>
                                 <Textarea
                                     id="message"
                                     placeholder="Tell me about your project..."
-                                    className="min-h-[90px]"
+                                    className={`min-h-[120px] ${touched.message && errors.message ? "border-red-500" : ""}`}
                                     value={formData.message}
                                     onChange={handleChange}
+                                    onBlur={handleBlur}
                                 />
+                                {touched.message && errors.message && (
+                                    <p className="text-red-500 text-sm mt-1">{errors.message}</p>
+                                )}
                             </div>
                             {submitStatus === "success" && (
                                 <p className="text-green-600 text-sm">Your message has been sent!</p>
@@ -122,7 +197,7 @@ export default function Contact() {
                             <Button
                                 type="submit"
                                 className="w-full"
-                                disabled={isSubmitting}
+                                disabled={!isValid || isSubmitting}
                             >
                                 {isSubmitting ? "Sending..." : "Send Message"}
                             </Button>

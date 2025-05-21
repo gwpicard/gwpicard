@@ -41,7 +41,7 @@ export const EmailTemplate = ({ name, email, message }: EmailTemplateProps) => {
           </div>
           
           <div style="margin-top: 32px; text-align: center; color: #64748b; font-size: 14px">
-            <p>This message was sent from the contact form on your website.</p>
+            <p>This message was sent from the contact form on gwpicard.com.</p>
           </div>
         </div>
       </div>
