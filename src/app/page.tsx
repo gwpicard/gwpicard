@@ -20,7 +20,7 @@ export default function Home() {
                         <Button
                             size="lg"
                             onClick={() => {
-                                document.getElementById('services-section')?.scrollIntoView({ behavior: 'smooth' });
+                                document.getElementById('solutions-section')?.scrollIntoView({ behavior: 'smooth' });
                             }}
                         >
                             How I can help
@@ -34,7 +34,7 @@ export default function Home() {
                 </div>
             </section>
 
-            <section id="services-section" className="container py-8 md:py-12 lg:py-24">
+            <section id="solutions-section" className="container py-8 md:py-12 lg:py-24">
                 <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center mb-16">
                     <h2 className="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl">
                         How I Can Help

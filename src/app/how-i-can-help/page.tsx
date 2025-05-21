@@ -101,7 +101,7 @@ export default function HowICanHelp() {
             <div className="mx-auto max-w-[58rem] space-y-12">
                 <div className="space-y-6">
                     <h1 className="font-heading text-3xl sm:text-5xl md:text-6xl lg:text-7xl">
-                        Services
+                        Solutions
                     </h1>
                     <p className="text-xl text-muted-foreground">
                         Whether you're looking for clarity, insights, or a fully-fledged MVP, I can make it happen.
