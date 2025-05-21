@@ -144,9 +144,8 @@ export default function Contact() {
 
                 <Card className="pt-3">
                     <CardContent>
-                        <form className="space-y-3 pt-2" onSubmit={handleSubmit}>
+                        <form className="space-y-6 pt-3" onSubmit={handleSubmit}>
                             <div className="space-y-2">
-                                <Label htmlFor="name">Name</Label>
                                 <Input
                                     id="name"
                                     placeholder="Name"
@@ -160,11 +159,10 @@ export default function Contact() {
                                 )}
                             </div>
                             <div className="space-y-2">
-                                <Label htmlFor="email">Email</Label>
                                 <Input
                                     id="email"
                                     type="email"
-                                    placeholder="your@email.com"
+                                    placeholder="Email"
                                     value={formData.email}
                                     onChange={handleChange}
                                     onBlur={handleBlur}
@@ -175,7 +173,6 @@ export default function Contact() {
                                 )}
                             </div>
                             <div className="space-y-2">
-                                <Label htmlFor="message">Message</Label>
                                 <Textarea
                                     id="message"
                                     placeholder="What's on your mind?"
