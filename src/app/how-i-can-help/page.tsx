@@ -10,51 +10,49 @@ const offers = [
     {
         title: "Discover What's Possible",
         id: "discover",
-        duration: "1–2 weeks",
-        description: "A focused engagement to define high-impact data or AI opportunities for your business. Whether you have a specific problem in mind or you're unsure where to start, I'll pinpoint feasible use cases and create a short roadmap.",
+        duration: "Timeline: 1-2 weeks",
+        description: "A focused exploration into how AI/data could be applied to your business. Whether you have a specific problem in mind or you're unsure where to start, I'll identify feasible use cases and outline a clear plan.",
         deliverables: [
             "Quick data and tech feasibility check",
-            "Opportunity mapping: which ideas bring the most ROI",
-            "Clear next steps (e.g., analytics, AI tool, or MVP build)",
+            "Opportunity map highlighting which ideas bring the most ROI",
+            "A clear set of next steps (e.g. analytics, AI tool, or MVP build)",
         ],
         idealFor: [
-            "Teams unsure how to leverage their data or AI",
-            "Founders evaluating multiple potential use cases",
-            "Early product discussions needing clarity before investing",
+            "Teams curious about whether AI/data can solve specific challenges",
+            "Data owners wanting to uncover high-value use cases in their data",
+            "Founders and managers looking to prioritize different AI/data initiatives",
         ],
     },
     {
         title: "Make Sense of Your Data",
         id: "analyze",
-        duration: "2–4 weeks",
-        description: "A deeper dive into your existing data. I'll clean it up, analyze trends, and build custom dashboards or visual reports that help you make data-backed decisions—no guesswork needed.",
+        duration: "Timeline: 2-4 weeks",
+        description: "A hands-on deep dive into your data. I'll clean and organise your datasets, analyze trends, and build interactive dashboards or reports so you can make smarter, data-driven decisions.",
         deliverables: [
-            "Data cleaning and organization",
-            "Interactive dashboards or visual reports",
-            "Insights and recommendations for next steps",
-            "Optional forecasting or predictive analytics",
+            "Thorough data cleaning and organization",
+            "nIteractive dashboards or visual reports",
+            "A concise report with actionable recommendations",
         ],
         idealFor: [
-            "SMEs with messy spreadsheets wanting clarity",
-            "Startups needing to understand user behavior, churn, or growth metrics",
-            "Anyone aiming to unlock immediate value from existing data",
+            "Teams struggling with messy data who need reliable datasets",
+            "Product leaders wanting clarity on user behavior, churn, and retention",
+            "Decision-makers seeking actionable insights to shape roadmap priorities",
         ],
     },
     {
         title: "Build Smart Tools & MVPs",
         id: "build",
-        duration: "4–8 weeks",
-        description: "I build a working solution—ranging from a small AI tool that automates a manual process to a full MVP you can pitch, demo, or launch. Perfect for showing investors, validating your product idea, or saving time on critical tasks.",
+        duration: "Timeline: 4-8 weeks",
+        description: "I build prototypes—from automating time-consuming tasks to delivering MVPs you can pitch, demo, or launch. I'll turn your concept into a solution that convinces investors, validates product ideas, or saves your team hours on manual tasks.",
         deliverables: [
-            "Functional prototype or MVP (frontend + backend)",
-            "Real or simulated data integration",
-            "Documentation + Loom walkthrough",
-            "Optional polish: user-friendly UI, pitch materials, and investor deck",
+            "A functional prototype or MVP (frontend + backend)",
+            "Integration with real or simulated data sources",
+            "Comprehensive documentation and a live walkthrough",
         ],
         idealFor: [
-            "Founders needing a tangible demo to secure funding",
-            "Teams ready to solve a real business challenge with AI or data",
-            "Companies wanting to pilot a new data-driven product",
+            "Founders who need a live demo or MVP to convince investors",
+            "Teams ready to tackle a real business challenge with AI/data solution",
+            "Organisations looking to pilot or validate a new AI/data initiative",
         ],
     },
 ]
@@ -62,11 +60,11 @@ const offers = [
 const addOns = [
     {
         title: "Pitch-Ready Upgrade",
-        description: "If you need investor-facing visuals, decks, or final UX polish.",
+        description: "Investor-facing visuals, slide decks, and final UX polish to elevate your investor pitch",
     },
     {
         title: "Implementation Support",
-        description: "Continued advisory, code reviews, or help onboarding your internal devs.",
+        description: "Hands-on onboarding of your internal dev team and ongoing advisory support",
     },
 ]
 
