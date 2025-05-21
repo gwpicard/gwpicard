@@ -14,7 +14,9 @@ export function Navigation() {
                     </Link>
                     <nav className="flex items-center space-x-6 text-sm font-medium">
                         <Link href="/how-i-can-help" className="transition-colors hover:text-foreground/80">Services</Link>
+                        {/* Temporarily hidden for v1 launch - uncomment when ready
                         <Link href="/playground" className="transition-colors hover:text-foreground/80">Playground</Link>
+                        */}
                         <Link href="/about" className="transition-colors hover:text-foreground/80">About</Link>
                         <Link href="/contact" className="transition-colors hover:text-foreground/80">Contact</Link>
                     </nav>

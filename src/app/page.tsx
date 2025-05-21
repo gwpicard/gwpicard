@@ -9,18 +9,20 @@ export default function Home() {
                 <ParticlesBackground />
                 <div className="container relative flex max-w-[64rem] flex-col items-center gap-8 text-center">
                     <h1 className="font-heading text-3xl sm:text-5xl md:text-6xl lg:text-7xl">
-                        I turn data-driven ideas <br></br>into real solutions.
+                        I turn ideas into <br></br> data-driven solutions.
                     </h1>
                     <p className="max-w-[46rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8">
-                        If you're exploring what AI can do or already have a project in mind, I can help.
+                        Whether you're exploring what AI can do or have a project in mind, I can help.
                     </p>
                     <div className="space-x-4">
                         <Link href="/how-i-can-help">
                             <Button size="lg">How I can help</Button>
                         </Link>
+                        {/* Temporarily hidden for v1 launch - uncomment when ready
                         <Link href="/playground">
                             <Button variant="outline" size="lg">What I can build</Button>
                         </Link>
+                        */}
                     </div>
                 </div>
             </section>
