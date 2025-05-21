@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
 import { Resend } from 'resend';
+import { EmailTemplate } from '@/components/email-template';
 
 // Initialize Resend with your API key
 const resend = new Resend(process.env.RESEND_API_KEY);
@@ -29,18 +30,16 @@ export async function POST(request: Request) {
         }
 
         try {
-            // Send email using Resend
+            // Get the email template
+            const template = EmailTemplate({ name, email, message });
+
+            // Send email using Resend with HTML template
             const { data, error } = await resend.emails.send({
                 from: 'Contact Form <onboarding@resend.dev>', // Use verified domain in production
-                to: 'gwpicard@gmail.com', // Replace with your email
-                subject: `Website Contact Form: Message from ${name}`,
-                text: `
-Name: ${name}
-Email: ${email}
-
-Message:
-${message}
-                `,
+                to: 'gwpicard@gmail.com', // Your email address
+                subject: template.subject,
+                html: template.html,
+                text: template.text,
             });
 
             if (error) {
