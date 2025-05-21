@@ -138,7 +138,7 @@ export default function Contact() {
                         Get in Touch
                     </h1>
                     <p className="text-base md:text-xl text-muted-foreground">
-                        Have a project in mind? I'd love to hear about it.
+                        Have a project in mind? Let's chat.
                     </p>
                 </div>
 
