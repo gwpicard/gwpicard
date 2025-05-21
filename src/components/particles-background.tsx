@@ -35,10 +35,10 @@ export function ParticlesBackground() {
                 },
                 particles: {
                     color: {
-                        value: "#6b7280",
+                        value: "#3b82f6",
                     },
                     links: {
-                        color: "#6b7280",
+                        color: "#3b82f6",
                         distance: 150,
                         enable: true,
                         opacity: 0.15,

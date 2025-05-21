@@ -87,6 +87,7 @@ export default function HowICanHelp() {
                             <TabsTrigger
                                 key={offer.id}
                                 value={offer.id}
+                                className="data-[state=active]:border-b-2 data-[state=active]:border-[hsl(210,100%,50%)] dark:data-[state=active]:border-[hsl(210,100%,60%)]"
                             >
                                 {offer.title}
                             </TabsTrigger>

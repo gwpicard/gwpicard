@@ -5,11 +5,11 @@ import { ParticlesBackground } from "@/components/particles-background"
 export default function Home() {
     return (
         <div className="flex flex-col items-center justify-center">
-            <section className="relative flex min-h-[100vh] w-full items-center justify-center overflow-hidden">
+            <section className="relative flex min-h-[100vh] w-full items-center justify-center overflow-hidden bg-gradient-to-b from-background to-background/70">
                 <ParticlesBackground />
                 <div className="container relative flex max-w-[64rem] flex-col items-center gap-8 text-center">
                     <h1 className="font-heading text-3xl sm:text-5xl md:text-6xl lg:text-7xl">
-                        I turn ideas into <br></br> data-driven solutions.
+                        I turn ideas into <br></br> data-driven solutions
                     </h1>
                     <p className="max-w-[46rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8">
                         Whether you're exploring what AI can do or have a project in mind, I can help.
@@ -35,7 +35,7 @@ export default function Home() {
                 </div>
 
                 <div className="mx-auto grid justify-center gap-6 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-3 mb-12">
-                    <div className="relative overflow-hidden rounded-lg border bg-background p-2">
+                    <div className="relative overflow-hidden rounded-lg border-2 border-[hsl(210,100%,90%)] dark:border-[hsl(210,100%,30%)] bg-background p-2">
                         <div className="flex h-[240px] flex-col justify-between rounded-md p-6">
                             <div className="space-y-4">
                                 <h3 className="text-xl font-bold">Discover What's Possible</h3>
@@ -50,7 +50,7 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className="relative overflow-hidden rounded-lg border bg-background p-2">
+                    <div className="relative overflow-hidden rounded-lg border-2 border-[hsl(210,100%,90%)] dark:border-[hsl(210,100%,30%)] bg-background p-2">
                         <div className="flex h-[240px] flex-col justify-between rounded-md p-6">
                             <div className="space-y-4">
                                 <h3 className="text-xl font-bold">Make Sense of Your Data</h3>
@@ -65,7 +65,7 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className="relative overflow-hidden rounded-lg border bg-background p-2">
+                    <div className="relative overflow-hidden rounded-lg border-2 border-[hsl(210,100%,90%)] dark:border-[hsl(210,100%,30%)] bg-background p-2">
                         <div className="flex h-[240px] flex-col justify-between rounded-md p-6">
                             <div className="space-y-4">
                                 <h3 className="text-xl font-bold">Build Smart Tools & MVPs</h3>

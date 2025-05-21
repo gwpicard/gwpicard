@@ -25,12 +25,9 @@ export default function Contact() {
                     </p>
                 </div>
 
-                <Card>
-                    <CardHeader className="space-y-1 pb-3">
-                        <CardTitle>Send a Message</CardTitle>
-                    </CardHeader>
+                <Card className="pt-3">
                     <CardContent>
-                        <form className="space-y-3">
+                        <form className="space-y-3 pt-2">
                             <div className="space-y-2">
                                 <Label htmlFor="name">Name</Label>
                                 <Input id="name" placeholder="Your name" />
