@@ -11,7 +11,7 @@ export default function Home() {
                 <ParticlesBackground />
                 <div className="container relative flex max-w-[64rem] flex-col items-center gap-8 text-center">
                     <h1 className="font-heading text-3xl sm:text-5xl md:text-6xl lg:text-7xl">
-                        I turn ideas into <br></br> data-driven solutions
+                        I bring ideas to life <br></br>with data and AI
                     </h1>
                     <p className="max-w-[46rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8">
                         Exploring AI or ready to build? I can help.
@@ -62,7 +62,7 @@ export default function Home() {
                             <div className="space-y-4">
                                 <h3 className="text-xl font-bold">Make Sense of Your Data</h3>
                                 <p className="text-sm leading-relaxed text-muted-foreground">
-                                    Make sense of your data. I'll generate actionable insights to help you make smarter, data-driven decisions.
+                                    Discover opportunities in your data. I'll generate actionable insights to help you make smarter decisions.
                                 </p>
                             </div>
                             <div className="pt-6">
