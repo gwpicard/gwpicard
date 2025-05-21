@@ -14,7 +14,7 @@ export default function Home() {
                         I turn ideas into <br></br> data-driven solutions
                     </h1>
                     <p className="max-w-[46rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8">
-                        Whether you're exploring what AI can do or have a project in mind, I can help.
+                        Exploring AI or ready to build? I can help.
                     </p>
                     <div className="space-x-4">
                         <Button
