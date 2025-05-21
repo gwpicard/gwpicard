@@ -1,3 +1,5 @@
+"use client"
+
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { ParticlesBackground } from "@/components/particles-background"
@@ -15,9 +17,14 @@ export default function Home() {
                         Whether you're exploring what AI can do or have a project in mind, I can help.
                     </p>
                     <div className="space-x-4">
-                        <Link href="/how-i-can-help">
-                            <Button size="lg">How I can help</Button>
-                        </Link>
+                        <Button
+                            size="lg"
+                            onClick={() => {
+                                document.getElementById('services-section')?.scrollIntoView({ behavior: 'smooth' });
+                            }}
+                        >
+                            How I can help
+                        </Button>
                         {/* Temporarily hidden for v1 launch - uncomment when ready
                         <Link href="/playground">
                             <Button variant="outline" size="lg">What I can build</Button>
@@ -27,7 +34,7 @@ export default function Home() {
                 </div>
             </section>
 
-            <section className="container py-8 md:py-12 lg:py-24">
+            <section id="services-section" className="container py-8 md:py-12 lg:py-24">
                 <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center mb-16">
                     <h2 className="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl">
                         How I Can Help
