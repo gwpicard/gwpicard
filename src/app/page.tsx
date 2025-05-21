@@ -10,8 +10,8 @@ export default function Home() {
             <section className="relative flex min-h-[90vh] sm:min-h-[100vh] w-full items-center justify-center overflow-hidden bg-gradient-to-b from-background to-background/70 py-6 landscape:py-4 sm:py-0">
                 <ParticlesBackground />
                 <div className="container relative flex max-w-[64rem] flex-col items-center gap-6 landscape:gap-4 sm:gap-8 text-center">
-                    <h1 className="font-heading text-3xl sm:text-5xl md:text-6xl lg:text-7xl">
-                        I bring ideas to life <br></br>with data and AI
+                    <h1 className="font-heading text-3xl sm:text-5xl md:text-6xl lg:text-7xl leading-[1.3] sm:leading-[1.25] md:leading-[1.2] pb-2 overflow-visible">
+                        I turn your data into <br></br>insights & prototypes
                     </h1>
                     <p className="text-sm leading-tight text-muted-foreground sm:text-xl sm:leading-8">
                         Exploring AI or ready to build? I can help.
