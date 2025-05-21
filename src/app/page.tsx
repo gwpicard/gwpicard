@@ -13,14 +13,24 @@ export default function Home() {
                     <h1 className="font-heading text-3xl sm:text-5xl md:text-6xl lg:text-7xl">
                         I bring ideas to life <br></br>with data and AI
                     </h1>
-                    <p className="max-w-[46rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8">
+                    <p className="text-sm leading-tight text-muted-foreground sm:text-xl sm:leading-8">
                         Exploring AI or ready to build? I can help.
                     </p>
                     <div className="space-x-4">
                         <Button
                             size="lg"
                             onClick={() => {
-                                document.getElementById('solutions-section')?.scrollIntoView({ behavior: 'smooth' });
+                                const element = document.getElementById('solutions-section');
+                                if (element) {
+                                    const headerOffset = 80; // Adjust this value based on your header height
+                                    const elementPosition = element.getBoundingClientRect().top;
+                                    const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+                                    window.scrollTo({
+                                        top: offsetPosition,
+                                        behavior: 'smooth'
+                                    });
+                                }
                             }}
                         >
                             How I can help
