@@ -10,9 +10,9 @@ export default function About() {
                         About Me
                     </h1>
                     <p className="text-xl leading-relaxed text-muted-foreground">
-                        Hi! 👋🏼 I'm Guillaume, a data science and AI specialist who loves turning ideas into real, useful tools. My skillset blends analytics, ML & AI, and software engineering. I've worked across industries and organisations of all sizes—always focusing on practical, user-centred solutions. <br></br>
+                        Hi! 👋🏼 I'm Guillaume, a data science and AI specialist who loves turning ideas into real, useful tools. My experience blends together analytics, ML & AI, and software engineering. I've worked across industries and organisations of all sizes—always focused building on practical, user-centric solutions. <br></br>
                         <br></br>
-                        I believe in starting small, testing fast, and iterating based on real feedback, because if something doesn't bring clear value, we re-think it. Whether you're a startup exploring AI or an established team seeking better data insights, I'm here to help make it happen quickly and effectively.
+                        I have a simple approach: start with a real question, identify the key challenge, and build just enough to tackle it—so no time is wasted on building features nobody needs. Whether it's a quick proof-of-concept or a polished demo, I'll help you test fast and build with confidence.
                     </p>
                 </div>
 
