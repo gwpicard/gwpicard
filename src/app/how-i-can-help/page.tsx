@@ -46,7 +46,7 @@ const offers = [
         shortTitle: "Build",
         id: "build",
         duration: "Timeline: 4-8 weeks",
-        description: "I build prototypes—from automating time-consuming tasks to delivering MVPs you can pitch, demo, or launch. I'll turn your concept into a solution that convinces investors, validates product ideas, or saves your team hours on manual tasks.",
+        description: "I build data-powered prototypes—from automating time-consuming tasks to delivering demo-ready MVPs you can pitch, or launch. I'll turn your concept into a solution that convinces investors, validates product ideas, or saves your team hours on manual tasks.",
         deliverables: [
             "A functional prototype or MVP (frontend + backend)",
             "Integration with real or simulated data sources",
@@ -107,7 +107,7 @@ export default function HowICanHelp() {
                         Solutions
                     </h1>
                     <p className="text-lg md:text-xl text-muted-foreground">
-                        Whether you're looking for clarity, insights, or a fully-fledged MVP, I can make it happen.
+                        Whether you're looking for direction, insights, or a fully-fledged MVP, I can make it happen.
                     </p>
                 </div>
 
