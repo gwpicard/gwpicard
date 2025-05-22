@@ -10,15 +10,15 @@ export default function About() {
                         About Me
                     </h1>
                     <p className="text-base md:text-xl leading-relaxed text-muted-foreground">
-                        Hi! 👋🏼 I'm Guillaume, a data science and AI specialist who loves turning ideas into real, useful tools. My experience blends together analytics, ML & AI, and software engineering. I've worked across industries and organisations of all sizes—always focused building on practical, user-centric solutions. <br></br>
+                        Hi! 👋🏼 I'm Guillaume, a data science and AI specialist with 6+ years experience building data-driven solutions for startups, companies, and R&D teams. I combine analytics, machine learning & AI, and software engineering to prototype user-focused tools that solve real problems. <br></br>
                         <br></br>
-                        I have a simple approach: start with a real question, identify the key challenge, and build just enough to tackle it—so no time is wasted on building features nobody needs. Whether it's a quick proof-of-concept or a polished demo, I'll help you test fast and build with confidence.
+                        My process is simple: start with a question, identify key challenges, and build only what's needed—no time wasted on irrelevant features. Whether the solution is simple analytics or a cutting-edge AI prototype, I determine the best approach tailored to each problem.
                     </p>
                 </div>
 
                 <div className="flex justify-center space-x-4 pt-4 md:pt-6">
                     <Link href="/contact">
-                        <Button size="lg">Send me a message</Button>
+                        <Button size="lg">Let's talk</Button>
                     </Link>
                     {/* <Link href="/playground">
                         <Button variant="outline" size="lg">View my work</Button>
