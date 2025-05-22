@@ -88,7 +88,7 @@ export default function Home() {
                                 <div>
                                     <h3 className="text-lg sm:text-xl font-bold mb-2">Build Smart Tools & MVPs</h3>
                                     <p className="text-sm leading-relaxed text-muted-foreground">
-                                        Turn your idea into a working prototype. I'll build a demo-ready AI tool to help you pitch, validate, or automate faster.
+                                        Turn your idea into working prototypes. I'll build a demo-ready tool or product to help you pitch, validate, or automate faster.
                                     </p>
                                 </div>
                                 <div className="mt-4 sm:mt-auto w-full">
