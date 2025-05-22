@@ -12,7 +12,7 @@ export default function About() {
                     <p className="text-base md:text-xl leading-relaxed text-muted-foreground">
                         Hi! 👋🏼 I'm Guillaume, a data science and AI specialist with 6+ years experience building data-driven solutions for startups, companies, and R&D teams. I combine analytics, machine learning & AI, and software engineering to prototype user-focused tools that solve real problems. <br></br>
                         <br></br>
-                        My process is simple: start with a question, identify key challenges, and build only what's needed—no time wasted on irrelevant features. Whether the solution is simple analytics or a cutting-edge AI prototype, I determine the best approach tailored to each problem.
+                        My process is simple: start with a question, identify key challenges, and build only what's needed—no time wasted on irrelevant features. Whether the solution is straightforward analytics or a cutting-edge AI prototype, I determine the best approach tailored to each problem.
                     </p>
                 </div>
 
